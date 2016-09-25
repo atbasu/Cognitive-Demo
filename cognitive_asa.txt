@@ -1,0 +1,2216 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2016.05.12 07:31:20 =~=~=~=~=~=~=~=~=~=~=~=
+show te
+
+SV4-ASA5510-701# show tech
+
+SV4-ASA5510-701# show tech-support 
+
+Cisco Adaptive Security Appliance Software Version 9.1(7) 
+Device Manager Version 7.5(2)153
+
+Compiled on Thu 14-Jan-16 09:37 by builders
+System image file is "disk0:/asa917-k8.bin"
+Config file at boot was "startup-config"
+
+SV4-ASA5510-701 up 54 days 0 hours
+
+Hardware:   ASA5510, 1024 MB RAM, CPU Pentium 4 Celeron 1600 MHz,
+Internal ATA Compact Flash, 256MB
+BIOS Flash M50FW016 @ 0xfff00000, 2048KB
+
+Encryption hardware device : Cisco ASA-55xx on-board accelerator (revision 0x0)
+                             Boot microcode        : CN1000-MC-BOOT-2.00 
+                             SSL/IKE microcode     : CNlite-MC-SSLm-PLUS-2.08
+                             IPSec microcode       : CNlite-MC-IPSECm-MAIN-2.09
+                             Number of accelerators: 1
+
+ 0: Ext: Ethernet0/0         : address is 44d3.ca8e.1a4e, irq 9
+ 1: Ext: Ethernet0/1         : address is 44d3.ca8e.1a4f, irq 9
+ 2: Ext: Ethernet0/2         : address is 44d3.ca8e.1a50, irq 9
+ 3: Ext: Ethernet0/3         : address is 44d3.ca8e.1a51, irq 9
+ 4: Ext: Management0/0       : address is 44d3.ca8e.1a4d, irq 11
+ 5: Int: Not used            : irq 11
+ 6: Int: Not used            : irq 5
+
+Licensed features for this platform:
+Maximum Physical Interfaces       : Unlimited      perpetual
+Maximum VLANs                     : 100            perpetual
+Inside Hosts                      : Unlimited      perpetual
+Failover                          : Active/Active  perpetual
+Encryption-DES                    : Enabled        perpetual
+Encryption-3DES-AES               : Enabled        perpetual
+Security Contexts                 : 2              perpetual
+GTP/GPRS                          : Disabled       perpetual
+AnyConnect Premium Peers          : 2              perpetual
+AnyConnect Essentials             : Disabled       perpetual
+Other VPN Peers                   : 250            perpetual
+Total VPN Peers                   : 250            perpetual
+Shared License                    : Disabled       perpetual
+AnyConnect for Mobile             : Disabled       perpetual
+AnyConnect for Cisco VPN Phone    : Disabled       perpetual
+Advanced Endpoint Assessment      : Disabled       perpetual
+UC Phone Proxy Sessions           : 2              perpetual
+Total UC Proxy Sessions           : 2              perpetual
+Botnet Traffic Filter             : Disabled       perpetual
+Intercompany Media Engine         : Disabled       perpetual
+Cluster                           : Disabled       perpetual
+
+This platform has an ASA 5510 Security Plus license.
+
+Serial Number: JMX1540X222
+Running Permanent Activation Key: 0xac33c074 0x2ce31ba1 0x74a0f548 0x984c28cc 0x0927249f 
+Configuration register is 0x1
+Configuration last modified by scottie at 04:14:18.095 UTC Thu May 12 2016
+
+------------------ show disk0: controller ------------------
+
+
+Flash Model: STEC M2+ CF 9.0.2
+
+
+------------------ dir all-filesystems ------------------
+
+
+Directory of disk0:/
+
+123    -rwx  15390720     05:41:56 Oct 01 2011  asa825-k8.bin
+124    -rwx  16280544     07:41:28 Oct 01 2011  asdm-645.bin
+10     drwx  4096         00:03:32 Jan 01 2003  log
+18     drwx  4096         00:03:44 Jan 01 2003  crypto_archive
+19     drwx  4096         00:03:48 Jan 01 2003  coredumpinfo
+126    -rwx  12998641     07:34:54 Oct 01 2011  csd_3.5.2008-k9.pkg
+127    drwx  4096         07:34:58 Oct 01 2011  sdesktop
+128    -rwx  6487517      07:35:44 Oct 01 2011  anyconnect-macosx-i386-2.5.2014-k9.pkg
+129    -rwx  6689498      07:36:22 Oct 01 2011  anyconnect-linux-2.5.2014-k9.pkg
+130    -rwx  4678691      07:36:44 Oct 01 2011  anyconnect-win-2.5.2014-k9.pkg
+131    -rwx  16651        12:20:00 Mar 26 2014  oldconfig_2014Mar26_1922.cfg
+132    -rwx  27076608     12:30:24 Mar 26 2014  asa914-k8.bin
+133    -rwx  16684        12:32:54 Mar 26 2014  8_2_5_0_startup_cfg.sav
+134    -rwx  1482         12:33:02 Mar 26 2014  upgrade_startup_errors_201403261233.log
+135    -rwx  19764        10:54:44 Mar 27 2014  oldconfig_2014Mar27_1756.cfg
+136    -rwx  22824520     11:00:48 Mar 27 2014  asdm-715-100.bin
+137    -rwx  24492        20:05:56 Feb 11 2016  oldconfig_2016Feb12_0159.cfg
+138    -rwx  27371520     20:11:22 Feb 11 2016  asa917-k8.bin
+139    -rwx  25629676     20:15:02 Feb 11 2016  asdm-752-153.bin
+
+255320064 bytes total (88989696 bytes free)
+
+------------------ show clock ------------------
+
+04:42:44.775 UTC Thu May 12 2016
+
+------------------ show crashinfo ------------------
+
+Saved crash: 00:00:00.000 UTC Thu Jan 1 1970
+
+
+------------------ show module ------------------
+
+
+Mod  Card Type                                    Model              Serial No. 
+---- -------------------------------------------- ------------------ -----------
+   0 ASA 5510 Adaptive Security Appliance         ASA5510            JMX1540X222
+
+Mod  MAC Address Range                 Hw Version   Fw Version   Sw Version     
+---- --------------------------------- ------------ ------------ ---------------
+   0 44d3.ca8e.1a4d to 44d3.ca8e.1a51  2.0          1.0(11)5     9.1(7)
+
+Mod  SSM Application Name           Status           SSM Application Version
+---- ------------------------------ ---------------- --------------------------
+
+Mod  Status             Data Plane Status     Compatibility
+---- ------------------ --------------------- -------------
+   0 Up Sys             Not Applicable        
+
+
+------------------ show memory ------------------
+
+Free memory:         750462384 bytes (70%)
+Used memory:         323279440 bytes (30%)
+-------------     ------------------
+Total memory:       1073741824 bytes (100%)
+
+------------------ show memory detail ------------------
+
+Free memory:                       750462384 bytes (70%)
+Used memory:
+     Allocated memory in use:       96787024 bytes ( 9%)
+     Reserved memory:              226492416 bytes (21%)
+-----------------------------   ------------------
+Total memory:                     1073741824 bytes (100%)
+
+Least free memory:        737637216 bytes (69%)
+Most used memory:         336104608 bytes (31%)
+
+MEMPOOL_DMA POOL STATS:
+
+Non-mmapped bytes allocated =     56545280
+Number of free chunks       =           49
+Number of mmapped regions   =            0
+Mmapped bytes allocated     =            0
+Max memory footprint        =     56545280
+Keepcost                    =     11796176
+Max contiguous free mem     =     11796176
+Allocated memory in use     =     44708112
+Free memory                 =     11837168
+
+----- fragmented memory statistics -----
+
+ fragment size       count          total
+    (bytes)                        (bytes)
+----------------  ----------  --------------
+           48             1             48**
+           72             4            288
+           96             2            192
+          104             1            104
+          112             2            224
+          144             1            144
+          224             1            224
+          248             2            496
+          256            28           7392
+          384             1            416
+         1024             2           2424
+         2048             1           2520
+         6144             1           7576
+        16384             1          18920
+     11796176             1       11796176*
+
+*  - top most releasable chunk.
+** - contiguous memory on top of heap.
+
+
+----- allocated memory statistics -----
+
+ fragment size       count          total
+    (bytes)                        (bytes)
+----------------  ----------  --------------
+           48             2             96
+          152             3            456
+          160             1            160
+          168             5            840
+          232             1            232
+          248             1            248
+          256            31           7936
+          384             2            768
+          512             7           3584
+         1024            71          72704
+         2048             5          10240
+         4096             2           8192
+         8192            11          90112
+        12288             1          12288
+        16384             5          81920
+        24576             2          49152
+        32768             4         131072
+        49152             1          49152
+        65536             8         524288
+        98304             2         196608
+       131072             2         262144
+       196608             5         983040
+       262144             9        2359296
+       393216             1         393216
+       524288            11        5767168
+       786432             1         786432
+      1048576             3        3145728
+      1572864             1        1572864
+      2097152             1        2097152
+      6291456             1        6291456
+     12582912             1       12582912
+
+MEMPOOL_GLOBAL_SHARED POOL STATS:
+
+Non-mmapped bytes allocated =    847249408
+Number of free chunks       =          625
+Number of mmapped regions   =            0
+Mmapped bytes allocated     =            0
+Max memory footprint        =    847249408
+Keepcost                    =    744283376
+Max contiguous free mem     =    744283376
+Allocated memory in use     =     96787024
+Free memory                 =    750462384
+
+----- fragmented memory statistics -----
+
+ fragment size       count          total
+    (bytes)                        (bytes)
+----------------  ----------  --------------
+           16           193           3088
+           24           145           3480
+           32            96           3072
+           40            60           2400
+           48             1             48**
+           48            27           1296
+           56            12            672
+           64             3            192
+           72             6            432
+           80             2            160
+           88             1             88
+          104             1            104
+          112             2            224
+          120             3            360
+          160             1            160
+          168             1            168
+          176             2            352
+          248             2            496
+          256            10           3504
+          384            21           9816
+          512             8           4304
+          768             1            872
+         1024             3           4312
+         1536             2           3440
+         2048             1           2576
+        32768             1          48192
+        65536             3         267280
+        98304             4         490288
+       131072             2         341744
+       196608             2         459520
+       262144             3         832312
+       393216             2         884304
+       524288             1         577104
+       786432             1         803016
+      1048576             1        1429520
+    744283376             1      744283376*
+
+*  - top most releasable chunk.
+** - contiguous memory on top of heap.
+
+
+----- allocated memory statistics -----
+
+ fragment size       count          total
+    (bytes)                        (bytes)
+----------------  ----------  --------------
+           48           723          34704
+           56          2797         156632
+           64          7504         480256
+           72          1034          74448
+           80          2611         208880
+           88           511          44968
+           96           401          38496
+          104          2471         256984
+          112           150          16800
+          120           243          29160
+          128           333          42624
+          136            72           9792
+          144            46           6624
+          152           534          81168
+          160           145          23200
+          168           938         157584
+          176           323          56848
+          184           493          90712
+          192            74          14208
+          200            15           3000
+          208           121          25168
+          216            64          13824
+          224            48          10752
+          232            38           8816
+          240            27           6480
+          248           100          24800
+          256          1398         357888
+          384           894         343296
+          512           699         357888
+          768            80          61440
+         1024           656         671744
+         1536           127         195072
+         2048           398         815104
+         3072            94         288768
+         4096            59         241664
+         6144            21         129024
+         8192            45         368640
+        12288            55         675840
+        16384           144        2359296
+        24576            29         712704
+        32768            41        1343488
+        49152            14         688128
+        65536           188       12320768
+        98304             6         589824
+       131072            18        2359296
+       196608            12        2359296
+       262144             4        1048576
+       393216             8        3145728
+       524288             7        3670016
+       786432             9        7077888
+      1048576             5        5242880
+      2097152             5       10485760
+      3145728             1        3145728
+      4194304             1        4194304
+      8388608             1        8388608
+     12582912             1       12582912
+
+Summary for all pools:
+
+Non-mmapped bytes allocated =    903794688
+Number of free chunks       =          674
+Number of mmapped regions   =            0
+Mmapped bytes allocated     =            0
+Max memory footprint        =    903794688
+Keepcost                    =    756079552
+Allocated memory in use     =    141495136
+Free memory                 =    762299552
+
+
+------------------ show conn count ------------------
+
+636 in use, 15680 most used
+
+------------------ show xlate count ------------------
+
+89 in use, 3233 most used
+
+------------------ show vpn-sessiondb summary ------------------
+
+---------------------------------------------------------------------------
+VPN Session Summary                                                        
+---------------------------------------------------------------------------
+                               Active : Cumulative : Peak Concur : Inactive
+                             ----------------------------------------------
+Site-to-Site VPN             :      5 :        955 :           8
+  IKEv1 IPsec                :      5 :        955 :           8
+---------------------------------------------------------------------------
+Total Active and Inactive    :      5             Total Cumulative :    955
+Device Total VPN Capacity    :    250
+Device Load                  :     2%
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+Tunnels Summary
+---------------------------------------------------------------------------
+                               Active : Cumulative : Peak Concurrent   
+                             ----------------------------------------------
+IKEv1                        :      5 :        955 :               8
+IPsec                        :      9 :       1036 :              13
+---------------------------------------------------------------------------
+Totals                       :     14 :       1991
+---------------------------------------------------------------------------
+
+
+------------------ show blocks ------------------
+
+  SIZE    MAX    LOW    CNT
+     0    400    389    400
+     4    200    199    199
+    80    952    946    952
+   256   3436   3400   3431
+  1550   7843   7522   7563
+  2048    600    599    600
+  2560    900    899    900
+  4096    100     95    100
+  8192    100    100    100
+ 16384    102    102    102
+ 65536     16     16     16
+
+------------------ show blocks core ------------------
+
+CORE  LIMIT  ALLOC   HIGH    CNT       FAILED
+   0  24576    405    405    402            0
+
+------------------ show blocks queue history detail ------------------
+
+History buffer memory usage: 2832 bytes (default)
+History analysis time limit: 100 msec
+
+Please see 'show blocks exhaustion snapshot' for more information
+
+------------------ show blocks queue history core-local ------------------
+
+History buffer memory usage: 2832 bytes (default)
+History analysis time limit: 100 msec
+
+------------------ show interface ------------------
+
+Interface Ethernet0/0 "External", is up, line protocol is up
+  Hardware is i82546GB rev03, BW 1000 Mbps, DLY 10 usec
+Auto-Duplex(Full-duplex), Auto-Speed(1000 Mbps)
+Input flow control is unsupported, output flow control is off
+MAC address 44d3.ca8e.1a4e, MTU 1500
+IP address 199.187.167.254, subnet mask 255.255.255.0
+5304550275 packets input, 7031276376952 bytes, 0 no buffer
+Received 128170481 broadcasts, 0 runts, 0 giants
+1085 input errors, 0 CRC, 0 frame, 1085 overrun, 0 ignored, 0 abort
+0 pause input, 0 resume input
+0 L2 decode drops
+30976159078 packets output, 5926713088054 bytes, 0 underruns
+0 pause output, 0 resume output
+0 output errors, 0 collisions, 2 interface resets
+0 late collisions, 0 deferred
+0 input reset drops, 0 output reset drops, 0 tx hangs
+input queue (blocks free curr/low): hardware (255/230)
+output queue (blocks free curr/low): hardware (255/32)
+  Traffic Statistics for "External":
+5304569210 packets input, 6935796512807 bytes
+30976159080 packets output, 5369142104144 bytes
+110381840 packets dropped
+      1 minute input rate 209 pkts/sec,  130078 bytes/sec
+      1 minute output rate 216 pkts/sec,  122992 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 212 pkts/sec,  135957 bytes/sec
+      5 minute output rate 215 pkts/sec,  126549 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+  Control Point Interface States:
+Interface number is 2
+Interface config status is active
+Interface state is active
+Interface Ethernet0/1 "Private", is up, line protocol is up
+  Hardware is i82546GB rev03, BW 1000 Mbps, DLY 10 usec
+Auto-Duplex(Full-duplex), Auto-Speed(1000 Mbps)
+Input flow control is unsupported, output flow control is off
+MAC address 44d3.ca8e.1a4f, MTU 1500
+IP address 10.50.0.1, subnet mask 255.255.255.0
+30869264960 packets input, 5738162071507 bytes, 0 no buffer
+Received 4657198 broadcasts, 0 runts, 0 giants
+83114 input errors, 0 CRC, 0 frame, 83114 overrun, 0 ignored, 0 abort
+0 pause input, 0 resume input
+0 L2 decode drops
+5065256687 packets output, 6709621292677 bytes, 0 underruns
+0 pause output, 0 resume output
+0 output errors, 0 collisions, 2 interface resets
+0 late collisions, 0 deferred
+0 input reset drops, 0 output reset drops, 0 tx hangs
+input queue (blocks free curr/low): hardware (255/230)
+output queue (blocks free curr/low): hardware (255/0)
+  Traffic Statistics for "Private":
+30869234876 packets input, 5170177920728 bytes
+5065256687 packets output, 6617673358532 bytes
+2430733 packets dropped
+      1 minute input rate 213 pkts/sec,  109017 bytes/sec
+      1 minute output rate 187 pkts/sec,  116812 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 215 pkts/sec,  112832 bytes/sec
+      5 minute output rate 193 pkts/sec,  122676 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+  Control Point Interface States:
+Interface number is 3
+Interface config status is active
+Interface state is active
+Interface Ethernet0/2 "MGMT", is up, line protocol is up
+  Hardware is i82546GB rev03, BW 100 Mbps, DLY 100 usec
+Auto-Duplex(Full-duplex), Auto-Speed(100 Mbps)
+Input flow control is unsupported, output flow control is off
+MAC address 44d3.ca8e.1a50, MTU 1500
+IP address 172.16.50.1, subnet mask 255.255.255.0
+838156 packets input, 449384980 bytes, 0 no buffer
+Received 403511 broadcasts, 0 runts, 0 giants
+0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+0 pause input, 0 resume input
+0 L2 decode drops
+278161 packets output, 49049899 bytes, 0 underruns
+0 pause output, 0 resume output
+0 output errors, 0 collisions, 2 interface resets
+0 late collisions, 0 deferred
+0 input reset drops, 0 output reset drops, 0 tx hangs
+input queue (blocks free curr/low): hardware (255/249)
+output queue (blocks free curr/low): hardware (255/242)
+  Traffic Statistics for "MGMT":
+838156 packets input, 434011923 bytes
+278161 packets output, 42882468 bytes
+403571 packets dropped
+      1 minute input rate 0 pkts/sec,  19 bytes/sec
+      1 minute output rate 0 pkts/sec,  0 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 0 pkts/sec,  19 bytes/sec
+      5 minute output rate 0 pkts/sec,  0 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+  Control Point Interface States:
+Interface number is 4
+Interface config status is active
+Interface state is active
+Interface Ethernet0/3 "", is administratively down, line protocol is down
+  Hardware is i82546GB rev03, BW 100 Mbps, DLY 100 usec
+Auto-Duplex, Auto-Speed
+Input flow control is unsupported, output flow control is off
+Available but not configured via nameif
+MAC address 44d3.ca8e.1a51, MTU not set
+IP address unassigned
+0 packets input, 0 bytes, 0 no buffer
+Received 0 broadcasts, 0 runts, 0 giants
+0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+0 pause input, 0 resume input
+0 L2 decode drops
+0 packets output, 0 bytes, 0 underruns
+0 pause output, 0 resume output
+0 output errors, 0 collisions, 1 interface resets
+0 late collisions, 0 deferred
+0 input reset drops, 0 output reset drops, 0 tx hangs
+input queue (blocks free curr/low): hardware (255/255)
+output queue (blocks free curr/low): hardware (255/255)
+  Control Point Interface States:
+Interface number is 5
+Interface config status is not active
+Interface state is not active
+Interface Management0/0 "management", is down, line protocol is down
+  Hardware is i82557, BW 100 Mbps, DLY 100 usec
+Auto-Duplex, Auto-Speed
+Input flow control is unsupported, output flow control is unsupported
+MAC address 44d3.ca8e.1a4d, MTU 1500
+IP address 192.168.1.1, subnet mask 255.255.255.0
+0 packets input, 0 bytes, 0 no buffer
+Received 0 broadcasts, 0 runts, 0 giants
+0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+0 pause input, 0 resume input
+0 L2 decode drops
+0 packets output, 0 bytes, 0 underruns
+0 pause output, 0 resume output
+0 output errors, 0 collisions, 0 interface resets
+0 babbles, 0 late collisions, 0 deferred
+0 lost carrier, 0 no carrier
+0 input reset drops, 0 output reset drops
+input queue (curr/max packets): hardware (0/0) software (0/0)
+output queue (curr/max packets): hardware (0/0) software (0/0)
+  Traffic Statistics for "management":
+0 packets input, 0 bytes
+0 packets output, 0 bytes
+0 packets dropped
+      1 minute input rate 0 pkts/sec,  0 bytes/sec
+      1 minute output rate 0 pkts/sec,  0 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 0 pkts/sec,  0 bytes/sec
+      5 minute output rate 0 pkts/sec,  0 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+Management-only interface. Blocked 0 through-the-device packets
+0 IPv4 packets originated from management network
+0 IPv4 packets destined to management network
+0 IPv6 packets originated from management network
+0 IPv6 packets destined to management network
+  Control Point Interface States:
+Interface number is 6
+Interface config status is active
+Interface state is not active
+
+------------------ show cpu usage ------------------
+
+CPU utilization for 5 seconds = 9%; 1 minute: 3%; 5 minutes: 3%
+
+------------------ show cpu detailed ------------------
+
+
+Break down of per-core data path versus control point cpu usage:
+Core         5 sec            1 min            5 min
+Core 0       8.6 (0.0 + 8.6)  3.4 (0.0 + 3.4)  2.7 (0.0 + 2.7)
+
+Current control point elapsed versus the maximum control point elapsed for:
+      5 seconds = 100.0%; 1 minute: 99.9%; 5 minutes: 100.0%
+
+
+CPU utilization of external processes for:
+      5 seconds = 0.0%; 1 minute: 0.0%; 5 minutes: 0.0%
+
+
+Total CPU utilization for:
+      5 seconds = 8.6%; 1 minute: 3.4%; 5 minutes: 2.7%
+
+
+------------------ show cpu hogging process ------------------
+
+
+Process:      Unicorn Admin Handler, NUMHOG: 1, MAXHOG: 4, LASTHOG: 4
+LASTHOG At:   03:59:03 UTC Mar 19 2016
+PC:           0x0916be1e (suspend)
+Call stack:   0x0916be1e  0x0916c0e2  0x085735ea  0x0856b8f9  0x0856bb82  0x0856bebe  0x0857259b
+              0x0806a2ac
+
+Process:      IKE Daemon, NUMHOG: 3, MAXHOG: 6, LASTHOG: 6
+LASTHOG At:   23:14:33 UTC Apr 18 2016
+PC:           0x0806c35e (suspend)
+Call stack:   0x0806c35e  0x08668053  0x0806a2ac
+
+Process:      NIC status poll, PROC_PC_TOTAL: 3, MAXHOG: 11, LASTHOG: 11
+LASTHOG At:   09:33:35 UTC Apr 21 2016
+PC:           0x08d1892d (suspend)
+
+Process:      NIC status poll, NUMHOG: 3, MAXHOG: 11, LASTHOG: 11
+LASTHOG At:   09:33:35 UTC Apr 21 2016
+PC:           0x08d1892d (suspend)
+Call stack:   0x08d1892d  0x0806a2ac
+
+Process:      CP Threat-Detection Processing, PROC_PC_TOTAL: 1, MAXHOG: 9, LASTHOG: 9
+LASTHOG At:   17:38:50 UTC May 5 2016
+PC:           0x0839c241 (suspend)
+
+Process:      CP Threat-Detection Processing, NUMHOG: 1, MAXHOG: 9, LASTHOG: 9
+LASTHOG At:   17:38:50 UTC May 5 2016
+PC:           0x0839c241 (suspend)
+Call stack:   0x0839c241  0x0806a2ac
+
+Process:      Dispatch Unit, NUMHOG: 39, MAXHOG: 7, LASTHOG: 7
+LASTHOG At:   15:09:18 UTC May 6 2016
+PC:           0x0829de18 (suspend)
+Call stack:   0x0829de18  0x0806a2ac
+
+Process:      Dispatch Unit, PROC_PC_TOTAL: 49, MAXHOG: 7, LASTHOG: 7
+LASTHOG At:   15:09:18 UTC May 6 2016
+PC:           0x0829de18 (suspend)
+
+Process:      Unicorn Admin Handler, PROC_PC_TOTAL: 1, MAXHOG: 10, LASTHOG: 10
+LASTHOG At:   22:56:42 UTC May 11 2016
+PC:           0x084dd2fe (suspend)
+
+Process:      Unicorn Admin Handler, NUMHOG: 1, MAXHOG: 10, LASTHOG: 10
+LASTHOG At:   22:56:42 UTC May 11 2016
+PC:           0x084dd2fe (suspend)
+Call stack:   0x084dd2fe  0x086202bd  0x084db380  0x084cf245  0x08070681  0x08ca967d  0x08070681
+              0x0857343d  0x0856b8f9  0x0856bb82  0x0856bebe  0x0857259b  0x0806a2ac
+
+Process:      Unicorn Admin Handler, PROC_PC_TOTAL: 7, MAXHOG: 36, LASTHOG: 36
+LASTHOG At:   22:56:52 UTC May 11 2016
+PC:           0x0916be1e (suspend)
+
+Process:      Unicorn Admin Handler, NUMHOG: 6, MAXHOG: 36, LASTHOG: 36
+LASTHOG At:   22:56:52 UTC May 11 2016
+PC:           0x0916be1e (suspend)
+Call stack:   0x0916be1e  0x0916c0e2  0x0857381e  0x0856b8f9  0x0856bb82  0x0856bebe  0x0857259b
+              0x0806a2ac
+
+Process:      rtcli async executor process, PROC_PC_TOTAL: 8, MAXHOG: 5, LASTHOG: 5
+LASTHOG At:   22:59:24 UTC May 11 2016
+PC:           0x091b0b05 (suspend)
+
+Process:      rtcli async executor process, NUMHOG: 8, MAXHOG: 5, LASTHOG: 5
+LASTHOG At:   22:59:24 UTC May 11 2016
+PC:           0x091b0b05 (suspend)
+Call stack:   0x0806c311  0x091b0b05  0x091b373d  0x091b37f5  0xadd558c0
+
+Process:      Dispatch Unit, PROC_PC_TOTAL: 78, MAXHOG: 57, LASTHOG: 14
+LASTHOG At:   04:31:48 UTC May 12 2016
+PC:           0x0829e06c (suspend)
+
+Process:      Dispatch Unit, NUMHOG: 72, MAXHOG: 57, LASTHOG: 14
+LASTHOG At:   04:31:48 UTC May 12 2016
+PC:           0x0829e06c (suspend)
+Call stack:   0x0829e06c  0x0806a2ac
+
+Process:      Dispatch Unit, PROC_PC_TOTAL: 6, MAXHOG: 48, LASTHOG: 9
+LASTHOG At:   04:32:00 UTC May 12 2016
+PC:           0x0829dd79 (suspend)
+
+Process:      Dispatch Unit, NUMHOG: 6, MAXHOG: 48, LASTHOG: 9
+LASTHOG At:   04:32:00 UTC May 12 2016
+PC:           0x0829dd79 (suspend)
+Call stack:   0x0829dd79  0x0806a2ac
+
+Process:      ssh_init, PROC_PC_TOTAL: 66, MAXHOG: 12, LASTHOG: 12
+LASTHOG At:   04:42:13 UTC May 12 2016
+PC:           0x0806c35e (suspend)
+
+Process:      ssh_init, NUMHOG: 63, MAXHOG: 12, LASTHOG: 12
+LASTHOG At:   04:42:13 UTC May 12 2016
+PC:           0x0806c35e (suspend)
+Call stack:   0x0806c35e  0x08194dab  0x0985fbcb  0x09863c6a  0x09855f0e  0x09856137  0x0987ac0f
+              0x09889c57  0x0987e6fa  0x0818d8d0  0x081578a2  0x0911a42b  0x09115b86  0x09114633
+
+CPU hog threshold (msec):  3.47
+Last cleared: None
+
+------------------ show process ------------------
+
+
+    PC       SP       STATE       Runtime    SBASE     Stack Process
+Msi 0x0888d684 0xa9765504 0x0b6049f0       6459 0xa97615f8 15688/16384 WebVPN KCD Process
+Msi 0x093e847d 0xabeceabc 0x0b6049f0      18353 0xabecabe0 15640/16384 vpnlb_timer_thread
+Mwe 0x093e8112 0xaa3d0684 0x0b55f808          0 0xaa3cc7b8 15328/16384 vpnlb_thread
+Msi 0x093ca2ee 0xaebda47c 0x0b6049f0     148925 0xaebd6590 15656/16384 vpnfol_thread_unsent
+Msi 0x093ca562 0xaebd214c 0x0b6049f0      23409 0xaebce260 15656/16384 vpnfol_thread_timer
+Mwe 0x093c85c2 0xaebd6274 0x0b55f4e0          0 0xaebd23f8 15992/16384 vpnfol_thread_sync
+Mwe 0x093c1694 0xaebcdfa4 0x0b55f498          0 0xaebc60c8 32472/32768 vpnfol_thread_msg
+Mwe 0x091cf69d 0xaaaa2dd4 0x0b6049f0          2 0xa9865e40 15072/16384 UserFromCert Thread
+Msi 0x08d1855c 0xadc949f4 0x0b6049f0     645011 0xadc90ad8 14004/16384 update_cpu_usage
+Mwe 0x091cf69d 0xae67b5a4 0x0b6049f0      13037 0xae5a7fc0 15008/16384 Unicorn Proxy Thread
+Mwe 0x091a9264 0xa988712c 0x0b52e8b0          0 0xa9883250 16072/16384 udp_timer
+Mwe 0x091a9ee1 0xae0c56d4 0x0b6049f0      11695 0xae0c1858 15752/16384 udp_thread
+Lsi 0x08cfd409 0xaa3e9064 0x0b6049f0        437 0xaa3e5148 15704/16384 uauth_urlb clean
+Mwe 0x090d9211 0xaa3710fc 0x0b51d090          0 0xaa36d210 15632/16384 Uauth_Proxy
+Mwe 0x0915bc4d 0xaa36cec4 0xad9f72b0          6 0xaa369078 15448/16384 uauth
+Mwe 0x08283dc7 0xac39b2cc 0x0ae97c1c      54624 0xac37b590 119524/131072 tmatch compile thread
+Mwe 0x08391a45 0xaa470424 0x0b6049f0          0 0xaa46c598 15864/16384 TLS Proxy Inspector
+Mwe 0x083198f5 0xae52b36c 0x0b6049f0       1232 0xae5274b0 15624/16384 Timekeeper
+Mwe 0x0914cc15 0xaa38dbe4 0x0b6049f0          0 0xaa389d38 15600/16384 Thread Logger
+Mwe 0x091634f4 0xae0c93e4 0x0b658e4c          0 0xae0c5888 14848/16384 tcp_thread
+Mwe 0x09168bb8 0xa9963d3c 0x0b5260e0          0 0xa995fe70 15656/16384 tcp_slow
+Mwe 0x09160147 0xa995fd1c 0x0b5260e0          0 0xa995be40 15672/16384 tcp_fast
+Mwe 0x091570b7 0xaa3b3b7c 0x0b525060          0 0xaa3afc90 15592/16384 syslogd
+Mwe 0x091516fd 0xaa389a0c 0x0b6049f0          0 0xaa385ba0 15768/16384 Syslog Retry Thread
+Mwe 0x081f56c5 0xa98a1fe4 0x0b6049f0          0 0xa989e158 15624/16384 SXP CORE
+Msp 0x0912982f 0xaa37d5f4 0x0b6049f0       4265 0xaa3796d8 15704/16384 SSL
+Mwe 0x0910c08d 0xaea6fd14 0x0b6049f0          9 0xaea6be68 13208/16384 ssh/timer
+Mwe 0x0916b17a 0xaf0c7454 0xadcb4c68        240 0xaf0c0268 24148/32768 ssh
+M*  0x09104d8d 0xa573ff1c 0x0b605288        530 0xaeee5a50 19064/32768 ssh
+Msi 0x09039d5c 0xadb3f6f4 0x0b6049f0        377 0xadb3b7d8 15704/16384 snmpfo_timer_thread
+Mwe 0x09039454 0xaa3485b4 0x0b511ccc        881 0xaa3446e8 14552/16384 SNMP Notify Thread
+Mwe 0x09159394 0xaa38173c 0x0b525694          0 0xaa37d870 15708/16384 SMTP
+Mwe 0x08fe5c8d 0xaa360bd4 0x0b6049f0       5619 0xaa358d48 29268/32768 Session Manager
+Mwe 0x094cb5ad 0xaa3e4dec 0x0b6049f0       1769 0xaa3e0fb0 15200/16384 scansafe_poll
+Mwe 0x091cf69d 0xaddc6934 0x0b6049f0        334 0xadd4da98 26600/32768 rtcli async executor process
+Mwe 0x080735dd 0xa985a894 0x0b6049f0          0 0xa98529d8 32192/32768 Reload Control Thread
+Mwe 0x081ecec1 0xa98ab2dc 0x0b6049f0          0 0xa98a7440 15488/16384 RBM CORE
+Mwe 0x090f072d 0xadc01cfc 0x0b6049f0          0 0xadbfde50 15832/16384 RADIUS Proxy Time Keeper
+Mwe 0x090afc33 0xadbfd9c4 0xadc08b70         36 0xadbf9cb8 14752/16384 RADIUS Proxy Listener
+Mwe 0x090f1004 0xadbf99ec 0x0b522854          0 0xadbf5b20 16072/16384 RADIUS Proxy Event Daemon
+Mwe 0x08f6271d 0xaa358a1c 0x0b6049f0          0 0xaa350bb0 31776/32768 Quack process
+Mwe 0x08f30ad1 0xae1dc0cc 0x0b802868     275244 0xae1d8210 12536/16384 qos_metric_daemon
+Mwe 0x08f5d1ca 0xaa339fa4 0x0b503078          0 0xaa3360b8 16104/16384 QoS Support Module
+Mwe 0x0936f4d1 0xabecaa4c 0x0b55430c       4396 0xabec6bb0 16024/16384 ppp_timer_thread
+Lwe 0x08ccfca6 0xa9967fcc 0x0b6049f0      51338 0xa9964150 12392/16384 pm_timer_thread
+Msi 0x08ce878e 0xaa18eff4 0x0b6049f0      34501 0xaa18b108 15656/16384 PIX Garbage Collector
+Mwe 0x094c31bc 0xaa3e0cb4 0x0b564ba8          0 0xaa3dce18 16024/16384 pci_nt_bridge
+Mwe 0x0917b035 0xadc9cc44 0x0b6049f0        207 0xadc98e08 15088/16384 npshim_thread
+Msi 0x08d18624 0xadca8f7c 0x0b6049f0          0 0xadca51a0 13184/16384 NIC status poll
+Msi 0x0899b866 0xadcb13ac 0x0b6049f0       1754 0xadcad4c0 15656/16384 netfs_vnode_reclaim
+Mwe 0x091cf69d 0xaa48bba4 0x0b6049f0          0 0xa9968308 15264/16384 netfs_thread_init
+Mwe 0x0899b554 0xaa5447b4 0x0af1e224          0 0xaa5408d8 15696/16384 netfs_mount_handler
+Mwe 0x0934ff05 0xadd1f964 0x0b658ce8          0 0xadd17a78 32456/32768 lu_rx
+Lwe 0x0934ff54 0xadd23b0c 0x0b8c32c8          0 0xadd1fc10 16120/16384 lu_dynamic_sync
+Mwe 0x0935004c 0xadc907cc 0x0b8c3324        897 0xadc8c940 15632/16384 lu_ctl
+Mwe 0x0915316c 0xaa385894 0x0b5249b8    4960061 0xaa381a08 9688/16384 Logger
+Mwe 0x09170e68 0xaeb02c4c 0xaeac8958          8 0xaeafef30 14764/16384 listen/ssh
+Mwe 0x08efb19c 0xa9770524 0x0b49bfe0          0 0xa976c658 16072/16384 lina_int
+Mwe 0x0888e376 0xa995378c 0x0b661900        811 0xa994f8c0 11904/16384 Lic TMR
+Mwe 0x0888e135 0xaa3508f4 0x0af1a580       2136 0xaa34ca18 16040/16384 Lic HA Cluster
+Mwe 0x093870f5 0xa9974414 0x0b6049f0          0 0xa9970578 15816/16384 L2TP mgmt daemon
+Mwe 0x09384775 0xa99703e4 0x0b6049f0          0 0xa996c548 15816/16384 L2TP data daemon
+Mwe 0x0816791a 0xac2c8774 0xa98977b8      20981 0xac2c48e8 8256/16384 IPsec message handler
+Mwe 0x087bbb8e 0xae0b9684 0x0b658dcc    1112524 0xae0b17c8 30904/32768 IP Thread
+Mwe 0x08b68682 0xad833fcc 0x0b6049f0       3880 0xad830120 13840/16384 IP Background
+Mwe 0x08cc3e3a 0xaa1a20d4 0x0b4863e4          0 0xaa19e1e8 16104/16384 IP Address Assign
+Mwe 0x087ac465 0xaa3d8994 0x0b6049f0          0 0xaa3d4ae8 15832/16384 Integrity Fw Timer Thread
+Mwe 0x087aff94 0xadc05df4 0x0b658728          0 0xadc01fe8 15264/16384 Integrity FW Task
+Mwe 0x08726244 0xadbd99a4 0x0b6049f0       8965 0xadbd5af8 15624/16384 IKEv2 DPD Client Process
+Mwe 0x08726d52 0xa994abdc 0x0b6049f0    1008899 0xa9947090 8180/16384 IKEv2 Daemon
+Mwe 0x0867a425 0xaa368d3c 0x0b6049f0      89917 0xaa364f10 14480/16384 IKE Timekeeper
+Mwe 0x086786dd 0xa994f55c 0x0b6049f0      62716 0xa994b6b0 12480/16384 IKE Receiver
+Mwe 0x0866806b 0xadbd5684 0x0af160b0     707707 0xadbcdac8 24376/32768 IKE Daemon
+Mwe 0x0864041d 0xaa364d8c 0x0b6049f0      32005 0xaa360ee0 13056/16384 IKE Common thread
+Mwe 0x085c15eb 0xa99043dc 0x0b6049f0          0 0xa98fc530 32216/32768 idfw_service
+Mwe 0x085b5105 0xa98fc234 0x0b6049f0          0 0xa98f4398 31680/32768 idfw_proc
+Mwe 0x085cd615 0xa9908534 0x0b6049f0          0 0xa99046c8 15524/16384 idfw_adagent
+Mwe 0x0859155e 0xae0c15d4 0x0b658d88        598 0xae0bd828 13764/16384 icmp_thread
+Mwe 0x08f94d1d 0xad7e7f5c 0x0b6049f0          0 0xad7e40a0 15848/16384 ICMP event handler
+Msi 0x08d17e24 0xadc98b7c 0x0b6049f0         54 0xadc94c70 15688/16384 health_check
+Mwe 0x0853d52f 0xadd0ea84 0x0b6049f0          0 0xadd0ac68 15688/16384 ha_trans_data_tx
+Mwe 0x0853d52f 0xadce88bc 0x0b6049f0          0 0xadce4aa0 15688/16384 ha_trans_ctl_tx
+Mwe 0x0851db06 0xadcc3984 0x0b64d204          0 0xadcbfb48 15928/16384 fover_tx_2
+Mwe 0x0851db06 0xadcbf7ec 0x0b64d1fc          0 0xadcbb9b0 15928/16384 fover_tx
+Msi 0x085225cc 0xadc8c674 0x0b6049f0      16857 0xadc887a8 14464/16384 fover_thread
+Mwe 0x0851bf4c 0xadcbb6a4 0x0b646220          0 0xadcb7818 16008/16384 fover_rx
+Mwe 0x08527384 0xadccbb34 0x0b64d218          0 0xadcc7e78 15544/16384 fover_rep
+Mwe 0x0851be1c 0xadcd3bbc 0x0b64d220      10050 0xadccc010 31652/32768 fover_parse
+Mwe 0x0850dbbc 0xadcc7a6c 0x0b658d48          0 0xadcc3ce0 15720/16384 fover_ip
+Mwe 0x084f8290 0xadcdc1dc 0x0b64d88c       3214 0xadcd8340 16024/16384 fover_ifc_test
+Mwe 0x084fc2c6 0xadce0374 0x0b6049f0          0 0xadcdc4d8 15816/16384 fover_health_monitoring_thread
+Mwe 0x0853399d 0xadd16cbc 0x0b6049f0          0 0xadd0ee00 32040/32768 fover_FSM_thread
+Mwe 0x084fc03d 0xadcd8054 0x0b6049f0          0 0xadcd41a8 15832/16384 fover_fail_check
+Mwe 0x0832483a 0xae52641c 0x0b6049f0       2678 0xae51e9a0 30576/32768 emweb/https
+Msi 0x09004aec 0xaa4efab4 0x0b6049f0      21444 0xaa4ebba8 15688/16384 emweb/cifs_timer
+Mwe 0x090afc33 0xae0d7a54 0xa98d90c0         37 0xae0d3d58 15304/16384 EAPoUDP-sock
+Mwe 0x082ea3ed 0xae0dba6c 0x0b6049f0          0 0xae0d7ef0 15016/16384 EAPoUDP
+Mwe 0x0930ef3d 0xad7ec0e4 0x0b6049f0          0 0xad7e8238 15832/16384 Dynamic Filter VC Housekeeper
+Mwe 0x082a7739 0xae1596fc 0x0b6049f0          0 0xae155950 15576/16384 dns_process
+Lwe 0x082aaf44 0xae1557cc 0x0b6049f0        321 0xae151920 15608/16384 dns_cache_timer
+Mrd 0x0829dd79 0xa97497ac 0x0b605288  411152506 0xa9729950 122752/131072 Dispatch Unit
+Msi 0x082e6c5c 0xaeb1531c 0x0b6049f0      45440 0xaeb11460 15608/16384 DHCPRA Monitor
+Mwe 0x082c0d01 0xaeb11184 0x0b6049f0      42581 0xaeb0d2c8 15624/16384 DHCPD Timer
+Mwe 0x082c3771 0xaeb1d784 0x0b6049f0          0 0xaeb19968 14976/16384 dhcp_daemon
+Lwe 0x0829c12c 0xa98d8df4 0x0b617bc0          0 0xa98d4f18 15616/16384 dbgtrace
+Mwe 0x081e516d 0xa98c843c 0x0b6049f0          0 0xa98c4580 15672/16384 cts_timer_task
+Mwe 0x081e3cbc 0xa98c4164 0x0b6123a8          0 0xa98bc3e8 31704/32768 cts_task
+Msi 0x08183e84 0xac2cc5b4 0x0b6049f0     500240 0xac2c8918 14216/16384 CTM message handler
+Mwe 0x0817d9d5 0xa989b8f4 0x0b6049f0          0 0xa9897a48 15832/16384 CTM Daemon
+Mwe 0x0813707d 0xa98f18a4 0x0b6049f0          0 0xa98ed9f8 15832/16384 CTCP Timer process
+Mwe 0x08e61f15 0xadb1024c 0x0b6049f0          0 0xadb0c380 15928/16384 Crypto PKI RECV
+Mwe 0x08e635a3 0xadb0215c 0x0b6049f0          0 0xadafe2b0 15832/16384 Crypto CA
+Mrd 0x0839c241 0xadc4bb9c 0x0b605288          0 0xadc47cf0 14544/16384 CP Threat-Detection Processing
+Mwe 0x080c334d 0xa987edcc 0x0b6049f0          0 0xa987af20 15832/16384 CMGR Timer Process
+Mwe 0x080c0cdc 0xa987ac64 0x0b607054          0 0xa9872d88 32144/32768 CMGR Server Process
+Mwe 0x08223ff5 0xa991a164 0x0b6049f0          0 0xa99162a8 15656/16384 cluster interface health monitor
+Mwe 0x08d78d8a 0xaa33e17c 0x0b487368          0 0xaa33a290 16104/16384 Client Update Task
+Mwe 0x082b80e4 0xadc87d1c 0x0a81645c          0 0xadc68610 124976/131072 ci/console
+Mwe 0x098a3105 0xa9980974 0x0b6049f0          0 0xa997caf8 15848/16384 Chunk Manager
+Lwe 0x09919255 0xaa342e3c 0x0b6049f0     357048 0xaa33efa0 14400/16384 Checkheaps
+Mwe 0x084deccd 0xa976c30c 0x0b6049f0          0 0xa97684c0 15680/16384 CF OIR
+Mwe 0x08ea5208 0xadb062f4 0x0b6049f0          0 0xadb02448 15896/16384 CERT API
+Lwe 0x080598a4 0xa971600c 0x0b6048c8          0 0xa9712120 15760/16384 block_diag
+Msi 0x087c1e38 0xa98e541c 0x0b6049f0      79032 0xa98e1530 14608/16384 arp_timer
+Mwe 0x087cc97e 0xa9910894 0x0b658770          0 0xa990c9f8 16024/16384 arp_forward_thread
+Mwe 0x087c340e 0xae0bd6d4 0x0b658760    6876206 0xae0b97f8 10916/16384 ARP Thread
+Mwe 0x091cf69d 0xaaa58994 0x0b6049f0          2 0xa986a018 14512/16384 aaa_shim_thread
+Mwe 0x08088169 0xa9865844 0x0b605fac        394 0xa9861ca8 12824/16384 aaa
+Msi 0x0858c0f6 0xa98ed77c 0x0b6049f0          2 0xa98e9860 15672/16384 557statspoll
+Msi 0x0858bd24 0xa98e95e4 0x0b6049f0      20038 0xa98e56c8 15704/16384 557mcfix
+ -           -          -          -          0          -      -      DATAPATH-0-517
+ -           -          -          - 4239898337          -      -      scheduler
+ -           -          -          - 4668568218          -      -      total elapsed
+
+------------------ show kernel process ------------------
+
+
+ PID PPID PRI  NI       VSIZE      RSS                WCHAN STAT  RUNTIME    GTIME   CGTIME COMMAND
+
+   1    0  20   0     2084864      612           3708909432    S      205        0        0 init
+
+   2    0  15 - 5           0        0           3708961420    S        0        0        0 kthreadd
+
+   3    2  15 - 5           0        0           3708915808    S        0        0        0 ksoftirqd/0
+
+   4    2  15 - 5           0        0           3708951520    S        0        0        0 events/0
+
+   5    2  15 - 5           0        0           3708951520    S        0        0        0 khelper
+
+  50    2  15 - 5           0        0           3708951520    S        0        0        0 kblockd/0
+
+  53    2  15 - 5           0        0           3710000567    S        0        0        0 kseriod
+
+ 112    2  20   0           0        0           3709071126    S        0        0        0 pdflush
+
+ 113    2  20   0           0        0           3709071126    S        0        0        0 pdflush
+
+ 114    2  15 - 5           0        0           3709083995    S        0        0        0 kswapd0
+
+ 115    2  15 - 5           0        0           3708951520    S        0        0        0 aio/0
+
+ 116    2  15 - 5           0        0           3708951520    S        0        0        0 nfsiod
+
+ 227    2  15 - 5           0        0           3708951520    S        0        0        0 hid_compat
+
+ 228    2  15 - 5           0        0           3708951520    S        0        0        0 rpciod/0
+
+ 253    1  16 - 4     1789952      620           3709220183    S        2        0        0 udevd
+
+ 309  253  18 - 2     1785856      616           3709220183    S        0        0        0 udevd
+
+ 310  253  18 - 2     1785856      500           3709220183    S        0        0        0 udevd
+
+ 482    1  20   0     5206016     1604           4294967295    S        0        0        0 lwsmd
+
+ 484  482  20   0    16740352     3604           4294967295    S       64        0        0 lwregd
+
+ 509    1  20   0     2088960      516           3708909432    S        0        0        0 sh
+
+ 510  509  20   0    10186752      524           4294967295    S        0        0        0 lina_monitor
+
+ 512  510   0 -20   978595840    74264           4294967295    S 37398853        0        0 lina
+
+------------------ show failover ------------------
+
+Failover Off 
+Failover unit Secondary
+Failover LAN Interface: not Configured
+Unit Poll frequency 1 seconds, holdtime 15 seconds
+Interface Poll frequency 5 seconds, holdtime 25 seconds
+Interface Policy 1
+Monitored Interfaces 4 of 110 maximum
+
+------------------ show failover history ------------------
+
+==========================================================================
+From State                 To State                   Reason
+==========================================================================
+03:57:53 UTC Mar 19 2016
+Not Detected               Disabled                   No Error
+
+==========================================================================
+
+------------------ show traffic ------------------
+
+External:
+received (in 373354.474 secs):
+5304569971 packets6935796628579 bytes
+14000 pkts/sec18576008 bytes/sec
+transmitted (in 373354.474 secs):
+30976160242 packets5369142562244 bytes
+82000 pkts/sec14380000 bytes/sec
+      1 minute input rate 209 pkts/sec,  130078 bytes/sec
+      1 minute output rate 216 pkts/sec,  122992 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 212 pkts/sec,  135957 bytes/sec
+      5 minute output rate 215 pkts/sec,  126549 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+Private:
+received (in 373354.694 secs):
+30869235481 packets5170178223815 bytes
+82002 pkts/sec13847002 bytes/sec
+transmitted (in 373354.694 secs):
+5065257112 packets6617673411257 bytes
+13003 pkts/sec17724010 bytes/sec
+      1 minute input rate 213 pkts/sec,  109017 bytes/sec
+      1 minute output rate 187 pkts/sec,  116812 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 215 pkts/sec,  112832 bytes/sec
+      5 minute output rate 193 pkts/sec,  122676 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+MGMT:
+received (in 373354.704 secs):
+838156 packets434011923 bytes
+2 pkts/sec1001 bytes/sec
+transmitted (in 373354.704 secs):
+278161 packets42882468 bytes
+0 pkts/sec11 bytes/sec
+      1 minute input rate 0 pkts/sec,  19 bytes/sec
+      1 minute output rate 0 pkts/sec,  0 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 0 pkts/sec,  19 bytes/sec
+      5 minute output rate 0 pkts/sec,  0 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+management:
+received (in 373354.934 secs):
+0 packets0 bytes
+0 pkts/sec0 bytes/sec
+transmitted (in 373354.934 secs):
+0 packets0 bytes
+0 pkts/sec0 bytes/sec
+      1 minute input rate 0 pkts/sec,  0 bytes/sec
+      1 minute output rate 0 pkts/sec,  0 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 0 pkts/sec,  0 bytes/sec
+      5 minute output rate 0 pkts/sec,  0 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+
+----------------------------------------
+Aggregated Traffic on Physical Interface
+----------------------------------------
+Ethernet0/0:
+received (in 373354.944 secs):
+5304551118 packets7031276519924 bytes
+14000 pkts/sec18832007 bytes/sec
+transmitted (in 373354.944 secs):
+30976160360 packets5926713618484 bytes
+82000 pkts/sec15874011 bytes/sec
+      1 minute input rate 209 pkts/sec,  133856 bytes/sec
+      1 minute output rate 216 pkts/sec,  126892 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 212 pkts/sec,  139781 bytes/sec
+      5 minute output rate 215 pkts/sec,  130430 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+Ethernet0/1:
+received (in 373355.154 secs):
+30869265625 packets5738162421635 bytes
+82001 pkts/sec15369007 bytes/sec
+transmitted (in 373355.154 secs):
+5065257152 packets6709621360127 bytes
+13003 pkts/sec17971000 bytes/sec
+      1 minute input rate 213 pkts/sec,  113110 bytes/sec
+      1 minute output rate 187 pkts/sec,  120405 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 215 pkts/sec,  116967 bytes/sec
+      5 minute output rate 193 pkts/sec,  126381 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+Ethernet0/2:
+received (in 373355.404 secs):
+838156 packets449384980 bytes
+2 pkts/sec1008 bytes/sec
+transmitted (in 373355.404 secs):
+278161 packets49049899 bytes
+0 pkts/sec4 bytes/sec
+      1 minute input rate 0 pkts/sec,  20 bytes/sec
+      1 minute output rate 0 pkts/sec,  0 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 0 pkts/sec,  20 bytes/sec
+      5 minute output rate 0 pkts/sec,  0 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+Ethernet0/3:
+received (in 373355.404 secs):
+0 packets0 bytes
+0 pkts/sec0 bytes/sec
+transmitted (in 373355.404 secs):
+0 packets0 bytes
+0 pkts/sec0 bytes/sec
+      1 minute input rate 0 pkts/sec,  0 bytes/sec
+      1 minute output rate 0 pkts/sec,  0 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 0 pkts/sec,  0 bytes/sec
+      5 minute output rate 0 pkts/sec,  0 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+Management0/0:
+received (in 373355.674 secs):
+0 packets0 bytes
+0 pkts/sec0 bytes/sec
+transmitted (in 373355.674 secs):
+0 packets0 bytes
+0 pkts/sec0 bytes/sec
+      1 minute input rate 0 pkts/sec,  0 bytes/sec
+      1 minute output rate 0 pkts/sec,  0 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 0 pkts/sec,  0 bytes/sec
+      5 minute output rate 0 pkts/sec,  0 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+
+------------------ show perfmon ------------------
+
+
+PERFMON STATS:                     Current      Average
+Xlates                                1/s          0/s
+Connections                          11/s          0/s
+TCP Conns                             0/s          0/s
+UDP Conns                             9/s          0/s
+URL Access                            0/s          0/s
+URL Server Req                        0/s          0/s
+TCP Fixup                             0/s          0/s
+TCP Intercept Established Conns       0/s          0/s
+TCP Intercept Attempts                0/s          0/s
+TCP Embryonic Conns Timeout           0/s          0/s
+HTTP Fixup                            0/s          0/s
+FTP Fixup                             0/s          0/s
+AAA Authen                            0/s          0/s
+AAA Author                            0/s          0/s
+AAA Account                           0/s          0/s
+
+VALID CONNS RATE in TCP INTERCEPT:    Current      Average
+                                       N/A         98.44%
+
+------------------ show counters ------------------
+
+Protocol     Counter                                       Value   Context
+IP           IN_PKTS                                   132091851   Summary
+IP           OUT_PKTS                                  112318704   Summary
+IP           OUT_DROP_DWN                                     32   Summary
+IP           TO_ARP                                    130996318   Summary
+IP           TO_UDP                                      1086170   Summary
+IP           TO_ICMP                                        9360   Summary
+IP           TO_TCP                                            3   Summary
+TCP          IN_PKTS                                           3   Summary
+TCP          DROP_NRST                                         3   Summary
+TCP          HASH_MISS                                         3   Summary
+UDP          IN_PKTS                                     1086170   Summary
+UDP          OUT_PKTS                                  112112048   Summary
+UDP          DROP_NO_APP                                       3   Summary
+ICMP         IN_PKTS                                        9360   Summary
+ICMP         OUT_PKTS                                       9294   Summary
+ICMP         DROP_IGNORE                                      14   Summary
+ICMP         PORT_UNREACH                                      8   Summary
+SSLERR       BAD_AUTHENTICATION_TYPE                           9   Summary
+SSLERR       BAD_PROTOCOL_VERSION_NUMBER                       2   Summary
+SSLERR       BAD_SIGNATURE                                    11   Summary
+SSLALERT     RX_CLOSE_NOTIFY                                   5   Summary
+SSLALERT     RX_WARNING_ALERT                                  5   Summary
+SSLALERT     TX_CLOSE_NOTIFY                                 230   Summary
+SSLALERT     TX_WARNING_ALERT                                230   Summary
+SSLDEV       NEW_CTX                                           1   Summary
+SSL_NP       OPEN_CONN                                         3   Summary
+SSL_NP       HANDSHAKE_START                                 244   Summary
+SSL_NP       HANDSHAKE_DONE                                  243   Summary
+SSL_NP       DOWNSTREAM_CLOSE                                789   Summary
+SSL_NP       DOWNSTREAM_CLOSE_NEXT                           244   Summary
+SSL_NP       UPSTREAM_CLOSE                                  248   Summary
+SSL_NP       UPSTREAM_CLOSE_NEXT                             244   Summary
+SSL_NP       FREE_CONN                                       244   Summary
+SSL_NP       NEW_CONN_SERVER                                 244   Summary
+SSL_NP       EXTRACT_VIA_DUPB                                  9   Summary
+SSL_NP       IN_PKTS_RX                                     1019   Summary
+SSL_NP       IN_PKTS_TX                                      288   Summary
+SSL_NP       OUT_PKTS_RX                                   20960   Summary
+SSL_NP       OUT_PKTS_TX                                   21443   Summary
+SSL_NP       SESSIONS_CLEARED                                  9   Summary
+SSL_NP       FAST_START                                       13   Summary
+SSL_NP       RESUME_FAST_START                                13   Summary
+NPSHIM       CTX_ALLOC                                       310   Summary
+NPSHIM       CTX_FREE                                        304   Summary
+NPSHIM       WRITE_UNBLOCKED                                1831   Summary
+NPSHIM       READ_RECV                                      9610   Summary
+VPIF         BAD_VALUE                                         2   Summary
+VPIF         NOT_FOUND                                 241057743   Summary
+IPSEC        IN_SA_CREATED                                 11068   Summary
+IPSEC        OUT_SA_CREATED                                11068   Summary
+IPSEC        IN_SA_ACTIVATED                                8812   Summary
+IPSEC        SA_DELETION_RETRY                                39   Summary
+SSLENC       CONTEXT_CREATED                                 244   Summary
+SSLENC       CONTEXT_UPDATED                                  10   Summary
+SSLENC       CONTEXT_DESTROYED                               244   Summary
+CRYPTO       INVALID_INPUT_PARAM                             235   Summary
+CRYPTO       DHE_HANDLE_ALLOCATED                             18   Summary
+CRYPTO       DHE_HANDLE_FREED                                 18   Summary
+
+------------------ show asp drop ------------------
+
+
+Frame drop:
+  IPSEC tunnel is down (ipsec-tun-down)                                       92
+  VPN reclassify failed (vpn-reclassify-failed)                                3
+  No route to host (no-route)                                                129
+  Flow is denied by configured rule (acl-drop)                         113077733
+  Invalid SPI (np-sp-invalid-spi)                                          27578
+  First TCP packet not SYN (tcp-not-syn)                                   60853
+  TCP failed 3 way handshake (tcp-3whs-failed)                             11193
+  TCP RST/FIN out of order (tcp-rstfin-ooo)                                 4057
+  TCP packet SEQ past window (tcp-seq-past-win)                            15145
+  TCP RST/SYN in window (tcp-rst-syn-in-win)                                   5
+  Slowpath security checks failed (sp-security-failed)                    267949
+  Expired flow (flow-expired)                                                  1
+  DNS Inspect packet too long (inspect-dns-pak-too-long)                      19
+  DNS Inspect id not matched (inspect-dns-id-not-matched)                  19313
+  Interface is down (interface-down)                                           4
+  Dropped pending packets in a closed socket (np-socket-closed)              300
+  IKE new SA limit exceeded (ike-sa-rate-limit)                           278350
+  NAT failed (nat-xlate-failed)                                                1
+
+Last clearing: Never
+
+Flow drop:
+  Tunnel has been torn down (tunnel-torn-down)                                 2
+  Tunnel being brought up or torn down (tunnel-pending)                        4
+  Need to start IKE negotiation (need-ike)                               1171568
+  Inspection failure (inspect-fail)                                        23432
+  SSL handshake failed (ssl-handshake-failed)                                  1
+
+Last clearing: Never
+
+------------------ show asp event dp-cp ------------------
+
+DP-CP EVENT QUEUE                  QUEUE-LEN  HIGH-WATER
+Punt Event Queue                           0           0
+Routing Event Queue                        0           0
+Identity-Traffic Event Queue               0           0
+General Event Queue                        0           0
+Syslog Event Queue                         0           0
+Non-Blocking Event Queue                   0           0
+Midpath High Event Queue                   0           0
+Midpath Norm Event Queue                   0           0
+Crypto Event Queue                         0           0
+SRTP Event Queue                           0           0
+HA Event Queue                             0           0
+Threat-Detection Event Queue               0           0
+SCP Event Queue                            0           0
+ARP Event Queue                            0           0
+IDFW Event Queue                           0           0
+CXSC Event Queue                           0           0
+
+EVENT-TYPE          ALLOC ALLOC-FAIL ENQUEUED ENQ-FAIL  RETIRED 15SEC-RATE
+
+------------------ show service-policy ------------------
+
+
+Global policy: 
+  Service-policy: global_policy
+    Class-map: inspection_default
+      Inspect: dns preset_dns_map, packet 22127353, drop 19332, reset-drop 0, v6-fail-close 0
+        message-length maximum client auto, drop 0
+        message-length maximum 512, drop 0
+        dns-guard, count 10858960
+        protocol-enforcement, drop 0
+        nat-rewrite, count 0
+      Inspect: ftp, packet 5437, drop 0, reset-drop 0, v6-fail-close 0
+      Inspect: h323 h225 _default_h323_map, packet 0, drop 0, reset-drop 0, v6-fail-close 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+        h245-tunnel-block drops 0 connection
+      Inspect: h323 ras _default_h323_map, packet 0, drop 0, reset-drop 0, v6-fail-close 0
+        h245-tunnel-block drops 0 connection
+      Inspect: ip-options _default_ip_options_map, packet 0, drop 0, reset-drop 0, v6-fail-close 0
+        Router Alert:  allow 0, clear 0
+      Inspect: netbios, packet 801, drop 0, reset-drop 0, v6-fail-close 0
+      Inspect: rsh, packet 0, drop 0, reset-drop 0, v6-fail-close 0
+      Inspect: rtsp, packet 0, drop 0, reset-drop 0, v6-fail-close 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+      Inspect: skinny , packet 0, drop 0, reset-drop 0, v6-fail-close 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+      Inspect: esmtp _default_esmtp_map, packet 1763, drop 0, reset-drop 0, v6-fail-close 0
+        mask-banner, count 61
+        allow-tls, count 0
+        match cmd line length gt 512 
+          drop-connection log, packet 0
+        match cmd RCPT count gt 100 
+          drop-connection log, packet 0
+        match body line length gt 998 
+          log, packet 0
+        match header line length gt 998 
+          drop-connection log, packet 0
+        match sender-address length gt 320 
+          drop-connection log, packet 0
+        match MIME filename length gt 255 
+          drop-connection log, packet 0
+        match ehlo-reply-parameter others 
+          mask, packet 0
+      Inspect: sqlnet, packet 0, drop 0, reset-drop 0, v6-fail-close 0
+      Inspect: sunrpc, packet 0, drop 0, reset-drop 0, v6-fail-close 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+      Inspect: sip , packet 0, drop 0, reset-drop 0, v6-fail-close 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+      Inspect: xdmcp, packet 0, drop 0, reset-drop 0, v6-fail-close 0
+
+------------------ show capture ------------------
+
+
+------------------ show resource usage counter all 1 ------------------
+
+Resource                 Current        Peak      Limit        Denied Context
+SSH Server                     2           2          5             0 System
+ASDM                           0           1         30             0 System
+Syslogs [rate]                 0        1130        N/A             0 System
+Conns                        635       15680     130000             0 System
+Xlates                        90        3233        N/A             0 System
+Hosts                         44          79        N/A             0 System
+Conns [rate]                   9        1814        N/A             0 System
+Inspects [rate]                0         740        N/A             0 System
+Routes                         4           4  unlimited             0 System
+
+------------------ show mode ------------------
+
+Security context mode: single 
+
+------------------ show history ------------------
+
+  enable 
+
+------------------ show firewall ------------------
+
+Firewall mode: Router
+
+------------------ show running-config ------------------
+
+: Saved
+: 
+: Serial Number: JMX1540X222
+: Hardware:   ASA5510, 1024 MB RAM, CPU Pentium 4 Celeron 1600 MHz
+:
+ASA Version 9.1(7) 
+!
+hostname SV4-ASA5510-701
+enable password <removed>
+xlate per-session deny tcp any4 any4
+xlate per-session deny tcp any4 any6
+xlate per-session deny tcp any6 any4
+xlate per-session deny tcp any6 any6
+xlate per-session deny udp any4 any4 eq domain
+xlate per-session deny udp any4 any6 eq domain
+xlate per-session deny udp any6 any4 eq domain
+xlate per-session deny udp any6 any6 eq domain
+passwd <removed>
+names
+name 10.50.0.0 PrivateNetwork
+!
+interface Ethernet0/0
+ nameif External
+ security-level 0
+ ip address 199.187.167.254 255.255.255.0 
+!
+interface Ethernet0/1
+ nameif Private
+ security-level 100
+ ip address 192.168.50.1 255.255.255.0 
+!
+interface Ethernet0/2
+ nameif MGMT
+ security-level 100
+ ip address 172.16.50.1 255.255.255.0 
+!
+interface Ethernet0/3
+ shutdown
+ no nameif
+ no security-level
+ no ip address
+!
+interface Management0/0
+ management-only
+ nameif management
+ security-level 100
+ ip address 192.168.1.1 255.255.255.0 
+!
+boot system disk0:/asa917-k8.bin
+boot system disk0:/asa914-k8.bin
+ftp mode passive
+dns domain-lookup Private
+dns server-group DefaultDNS
+ name-server 4.2.2.1
+ name-server 216.218.132.2
+same-security-traffic permit inter-interface
+object network PrivateNetwork
+ subnet 10.50.0.0 255.255.255.0
+ description Created during name migration
+object network obj-10.224.0.0
+ subnet 10.224.0.0 255.255.255.192
+object network obj-10.242.228.0
+ subnet 10.242.228.0 255.255.252.0
+object network obj-10.211.100.0
+ subnet 10.211.100.0 255.255.255.192
+object network obj-192.168.210.0
+ subnet 192.168.210.0 255.255.254.0
+object network obj-10.70.0.0
+ subnet 10.70.0.0 255.255.254.0
+object network obj-10.86.0.0
+ subnet 10.86.0.0 255.255.255.0
+object network obj-10.90.0.0
+ subnet 10.90.0.0 255.255.255.0
+object network obj-172.16.86.0
+ subnet 172.16.86.0 255.255.255.0
+object network obj-172.16.50.0
+ subnet 172.16.50.0 255.255.255.0
+object network obj-10.45.0.0
+ subnet 10.45.0.0 255.255.255.0
+object network obj-10.238.8.0
+ subnet 10.238.8.0 255.255.252.0
+object network obj_any
+ subnet 0.0.0.0 0.0.0.0
+object network obj-10.80.0.0
+ subnet 10.80.0.0 255.255.252.0
+object network Austin_Office
+ subnet 10.10.101.0 255.255.255.128
+object network obj-10.87.0.0
+ subnet 10.87.0.0 255.255.255.0
+object network ATL_Office
+ subnet 10.10.103.0 255.255.255.128
+object-group network DM_INLINE_NETWORK_1
+ network-object 10.100.10.0 255.255.255.0
+ network-object 10.100.128.0 255.255.128.0
+ network-object 10.100.128.0 255.255.255.0
+ network-object 10.100.20.0 255.255.255.0
+ network-object 10.100.41.0 255.255.255.0
+object-group network DM_INLINE_NETWORK_2
+ network-object 10.100.10.0 255.255.255.0
+ network-object 10.100.128.0 255.255.128.0
+ network-object 10.100.128.0 255.255.255.0
+ network-object 10.100.20.0 255.255.255.0
+object-group network DM_INLINE_NETWORK_3
+ network-object 10.100.10.0 255.255.255.0
+ network-object 10.100.128.0 255.255.128.0
+ network-object 10.100.20.0 255.255.255.0
+object-group network DM_INLINE_NETWORK_4
+ network-object 10.100.10.0 255.255.255.0
+ network-object 10.100.128.0 255.255.128.0
+ network-object 10.100.20.0 255.255.255.0
+ network-object 10.100.41.0 255.255.255.0
+object-group network DM_INLINE_NETWORK_5
+ network-object 10.60.0.0 255.255.254.0
+ network-object 10.63.0.0 255.255.255.0
+object-group network DM_INLINE_NETWORK_6
+ network-object 10.60.0.0 255.255.254.0
+ network-object 10.63.0.0 255.255.255.0
+object-group network DM_INLINE_NETWORK_7
+ network-object object PrivateNetwork
+ network-object 172.16.50.0 255.255.255.0
+object-group network DM_INLINE_NETWORK_8
+ network-object object PrivateNetwork
+ network-object 172.16.50.0 255.255.255.0
+ network-object object obj-172.16.50.0
+object-group network DM_INLINE_NETWORK_10
+ network-object object obj-10.242.228.0
+ network-object object obj-192.168.210.0
+object-group network DM_INLINE_NETWORK_9
+ network-object object PrivateNetwork
+ network-object object obj-10.242.228.0
+ network-object object obj-192.168.210.0
+object-group network DM_INLINE_NETWORK_11
+ network-object object PrivateNetwork
+ network-object 172.16.50.0 255.255.255.0
+object-group network DM_INLINE_NETWORK_12
+ network-object object obj-10.80.0.0
+ network-object object obj-10.86.0.0
+ network-object object obj-10.87.0.0
+object-group network DM_INLINE_NETWORK_14
+ network-object 10.86.0.0 255.255.255.0
+ network-object object obj-10.80.0.0
+ network-object object obj-10.87.0.0
+object-group network DM_INLINE_NETWORK_15
+ network-object PrivateNetwork 255.255.255.0
+ network-object 172.16.50.0 255.255.255.0
+object-group network DM_INLINE_NETWORK_16
+ network-object object PrivateNetwork
+ network-object object obj-172.16.50.0
+object-group network DM_INLINE_NETWORK_13
+ network-object object PrivateNetwork
+ network-object object obj-172.16.50.0
+object-group network DM_INLINE_NETWORK_17
+ network-object object obj-10.242.228.0
+ network-object object obj-192.168.210.0
+object-group network DM_INLINE_NETWORK_18
+ network-object PrivateNetwork 255.255.255.0
+ network-object object obj-172.16.50.0
+object-group network DM_INLINE_NETWORK_19
+ network-object 10.60.0.0 255.255.254.0
+ network-object 10.63.0.0 255.255.255.0
+access-list Private_nat0_outbound extended permit ip object PrivateNetwork object-group DM_INLINE_NETWORK_1 
+access-list Private_nat0_outbound extended permit ip object PrivateNetwork 10.224.0.0 255.255.255.192 
+access-list Private_nat0_outbound extended permit ip object PrivateNetwork 10.242.228.0 255.255.252.0 
+access-list Private_nat0_outbound extended permit ip object PrivateNetwork 10.211.100.0 255.255.255.192 
+access-list Private_nat0_outbound extended permit ip object-group DM_INLINE_NETWORK_7 192.168.210.0 255.255.254.0 
+access-list Private_nat0_outbound extended permit ip object PrivateNetwork object-group DM_INLINE_NETWORK_5 
+access-list Private_nat0_outbound extended permit ip object PrivateNetwork 10.70.0.0 255.255.254.0 
+access-list Private_nat0_outbound extended permit ip object PrivateNetwork 10.86.0.0 255.255.255.0 
+access-list Private_nat0_outbound extended permit ip object PrivateNetwork 10.90.0.0 255.255.255.0 
+access-list Private_nat0_outbound extended permit ip object PrivateNetwork 172.16.86.0 255.255.255.0 
+access-list Private_nat0_outbound extended permit ip 172.16.50.0 255.255.255.0 object-group DM_INLINE_NETWORK_2 
+access-list Private_nat0_outbound extended permit ip object PrivateNetwork 10.45.0.0 255.255.255.0 
+access-list External_1_cryptomap extended permit ip object PrivateNetwork object-group DM_INLINE_NETWORK_4 
+access-list External_1_cryptomap extended permit ip 172.16.50.0 255.255.255.0 object-group DM_INLINE_NETWORK_3 
+access-list External_2_cryptomap extended permit ip object PrivateNetwork 10.224.0.0 255.255.255.192 
+access-list External_cryptomap_3 extended permit ip object-group DM_INLINE_NETWORK_13 object-group DM_INLINE_NETWORK_17 
+access-list External_4_cryptomap extended permit ip object PrivateNetwork 10.211.100.0 255.255.255.192 
+access-list External_cryptomap_2 extended permit ip object PrivateNetwork object obj-10.238.8.0 
+access-list External_cryptomap extended permit ip object-group DM_INLINE_NETWORK_18 object ATL_Office 
+access-list External_cryptomap_4 extended permit ip object PrivateNetwork object-group DM_INLINE_NETWORK_19 
+access-list External_8_cryptomap extended permit ip object PrivateNetwork 10.70.0.0 255.255.254.0 
+access-list External_9_cryptomap extended permit ip object PrivateNetwork 10.90.0.0 255.255.255.0 
+access-list External_10_cryptomap extended permit ip object PrivateNetwork object-group DM_INLINE_NETWORK_14 
+access-list External_10_cryptomap extended permit ip object PrivateNetwork 172.16.86.0 255.255.255.0 
+access-list External_11_cryptomap extended permit ip object PrivateNetwork 10.45.0.0 255.255.255.0 
+access-list External_cryptomap_1 extended permit ip object-group DM_INLINE_NETWORK_15 object Austin_Office 
+access-list External_7_cryptomap extended permit ip 192.168.0.0 255.255.255.0 172.16.0.0 255.255.0.0 
+pager lines 24
+logging enable
+logging timestamp
+logging monitor critical
+logging trap warnings
+logging asdm critical
+logging host MGMT 10.242.229.185
+logging class auth monitor informational trap informational asdm informational 
+mtu External 1500
+mtu Private 1500
+mtu MGMT 1500
+mtu management 1500
+no failover
+icmp unreachable rate-limit 1 burst-size 1
+asdm image disk0:/asdm-752-153.bin
+asdm history enable
+arp timeout 14400
+no arp permit-nonconnected
+nat (Private,any) source static PrivateNetwork PrivateNetwork destination static DM_INLINE_NETWORK_1 DM_INLINE_NETWORK_1 no-proxy-arp route-lookup
+nat (Private,any) source static PrivateNetwork PrivateNetwork destination static obj-10.224.0.0 obj-10.224.0.0 no-proxy-arp route-lookup
+nat (Private,any) source static PrivateNetwork PrivateNetwork destination static obj-10.211.100.0 obj-10.211.100.0 no-proxy-arp route-lookup
+nat (Private,any) source static PrivateNetwork PrivateNetwork destination static DM_INLINE_NETWORK_5 DM_INLINE_NETWORK_5 no-proxy-arp route-lookup
+nat (Private,any) source static PrivateNetwork PrivateNetwork destination static obj-10.70.0.0 obj-10.70.0.0 no-proxy-arp route-lookup
+nat (Private,any) source static PrivateNetwork PrivateNetwork destination static DM_INLINE_NETWORK_12 DM_INLINE_NETWORK_12 no-proxy-arp route-lookup
+nat (Private,any) source static PrivateNetwork PrivateNetwork destination static obj-10.90.0.0 obj-10.90.0.0 no-proxy-arp route-lookup
+nat (Private,any) source static PrivateNetwork PrivateNetwork destination static obj-172.16.86.0 obj-172.16.86.0 no-proxy-arp route-lookup
+nat (Private,any) source static obj-172.16.50.0 obj-172.16.50.0 destination static DM_INLINE_NETWORK_2 DM_INLINE_NETWORK_2 no-proxy-arp route-lookup
+nat (Private,any) source static PrivateNetwork PrivateNetwork destination static obj-10.45.0.0 obj-10.45.0.0 no-proxy-arp route-lookup
+nat (Private,any) source static DM_INLINE_NETWORK_11 DM_INLINE_NETWORK_11 destination static obj-10.238.8.0 obj-10.238.8.0 no-proxy-arp route-lookup
+nat (Private,any) source static DM_INLINE_NETWORK_9 DM_INLINE_NETWORK_9 destination static DM_INLINE_NETWORK_10 DM_INLINE_NETWORK_10 no-proxy-arp route-lookup
+nat (Private,any) source static DM_INLINE_NETWORK_16 DM_INLINE_NETWORK_16 destination static Austin_Office Austin_Office no-proxy-arp route-lookup
+nat (Private,External) source static DM_INLINE_NETWORK_13 DM_INLINE_NETWORK_13 destination static DM_INLINE_NETWORK_17 DM_INLINE_NETWORK_17 no-proxy-arp route-lookup
+nat (Private,External) source static DM_INLINE_NETWORK_18 DM_INLINE_NETWORK_18 destination static ATL_Office ATL_Office no-proxy-arp route-lookup
+nat (Private,External) source static DM_INLINE_NETWORK_6 DM_INLINE_NETWORK_6 destination static PrivateNetwork PrivateNetwork no-proxy-arp route-lookup
+nat (Private,External) source static PrivateNetwork PrivateNetwork destination static DM_INLINE_NETWORK_19 DM_INLINE_NETWORK_19 no-proxy-arp route-lookup
+!
+object network obj_any
+ nat (Private,External) dynamic interface
+route External 0.0.0.0 0.0.0.0 199.187.167.240 1 
+timeout xlate 3:00:00
+timeout pat-xlate 0:00:30
+timeout conn 1:00:00 half-closed 0:10:00 udp 0:02:00 icmp 0:00:02
+timeout sunrpc 0:10:00 h323 0:05:00 h225 1:00:00 mgcp 0:05:00 mgcp-pat 0:05:00
+timeout sip 0:30:00 sip_media 0:02:00 sip-invite 0:03:00 sip-disconnect 0:02:00
+timeout sip-provisional-media 0:02:00 uauth 0:05:00 absolute
+timeout tcp-proxy-reassembly 0:01:00
+timeout floating-conn 0:00:00
+dynamic-access-policy-record DfltAccessPolicy
+user-identity default-domain LOCAL
+aaa authentication ssh console LOCAL 
+http server enable
+http 204.15.114.74 255.255.255.255 External
+http PrivateNetwork 255.255.255.0 Private
+http 192.168.210.0 255.255.254.0 Private
+http 10.100.20.0 255.255.255.0 MGMT
+http 192.168.210.0 255.255.254.0 MGMT
+http 10.100.0.0 255.255.0.0 Private
+http 10.100.0.0 255.255.0.0 MGMT
+http 23.123.102.204 255.255.255.255 External
+no snmp-server location
+no snmp-server contact
+crypto ipsec ikev1 transform-set ESP-AES-128-MD5 esp-aes esp-md5-hmac 
+crypto ipsec ikev1 transform-set ESP-AES-192-SHA esp-aes-192 esp-sha-hmac 
+crypto ipsec ikev1 transform-set ESP-AES-192-MD5 esp-aes-192 esp-md5-hmac 
+crypto ipsec ikev1 transform-set ESP-AES-256-MD5 esp-aes-256 esp-md5-hmac 
+crypto ipsec ikev1 transform-set ESP-3DES-SHA esp-3des esp-sha-hmac 
+crypto ipsec ikev1 transform-set ESP-3DES-MD5 esp-3des esp-md5-hmac 
+crypto ipsec ikev1 transform-set ESP-DES-SHA esp-des esp-sha-hmac 
+crypto ipsec ikev1 transform-set ESP-DES-MD5 esp-des esp-md5-hmac 
+crypto ipsec ikev1 transform-set ESP-AES-256-SHA esp-aes-256 esp-sha-hmac 
+crypto ipsec ikev1 transform-set ESP-AES-128-SHA esp-aes esp-sha-hmac 
+crypto ipsec ikev1 transform-set ESP-AES-128-SHA-TRANS esp-aes esp-sha-hmac 
+crypto ipsec ikev1 transform-set ESP-AES-128-SHA-TRANS mode transport
+crypto ipsec ikev1 transform-set ESP-AES-128-MD5-TRANS esp-aes esp-md5-hmac 
+crypto ipsec ikev1 transform-set ESP-AES-128-MD5-TRANS mode transport
+crypto ipsec ikev1 transform-set ESP-AES-192-SHA-TRANS esp-aes-192 esp-sha-hmac 
+crypto ipsec ikev1 transform-set ESP-AES-192-SHA-TRANS mode transport
+crypto ipsec ikev1 transform-set ESP-AES-192-MD5-TRANS esp-aes-192 esp-md5-hmac 
+crypto ipsec ikev1 transform-set ESP-AES-192-MD5-TRANS mode transport              
+crypto ipsec ikev1 transform-set ESP-AES-256-SHA-TRANS esp-aes-256 esp-sha-hmac 
+crypto ipsec ikev1 transform-set ESP-AES-256-SHA-TRANS mode transport
+crypto ipsec ikev1 transform-set ESP-AES-256-MD5-TRANS esp-aes-256 esp-md5-hmac 
+crypto ipsec ikev1 transform-set ESP-AES-256-MD5-TRANS mode transport
+crypto ipsec ikev1 transform-set ESP-3DES-SHA-TRANS esp-3des esp-sha-hmac 
+crypto ipsec ikev1 transform-set ESP-3DES-SHA-TRANS mode transport
+crypto ipsec ikev1 transform-set ESP-3DES-MD5-TRANS esp-3des esp-md5-hmac 
+crypto ipsec ikev1 transform-set ESP-3DES-MD5-TRANS mode transport
+crypto ipsec ikev1 transform-set ESP-DES-SHA-TRANS esp-des esp-sha-hmac 
+crypto ipsec ikev1 transform-set ESP-DES-SHA-TRANS mode transport
+crypto ipsec ikev1 transform-set ESP-DES-MD5-TRANS esp-des esp-md5-hmac 
+crypto ipsec ikev1 transform-set ESP-DES-MD5-TRANS mode transport
+crypto ipsec ikev2 ipsec-proposal AES256
+ protocol esp encryption aes-256
+ protocol esp integrity sha-1 md5
+crypto ipsec ikev2 ipsec-proposal AES192
+ protocol esp encryption aes-192
+ protocol esp integrity sha-1 md5
+crypto ipsec ikev2 ipsec-proposal AES
+ protocol esp encryption aes
+ protocol esp integrity sha-1 md5
+crypto ipsec ikev2 ipsec-proposal 3DES
+ protocol esp encryption 3des
+ protocol esp integrity sha-1 md5
+crypto ipsec ikev2 ipsec-proposal DES
+ protocol esp encryption des
+ protocol esp integrity sha-1 md5
+crypto ipsec security-association pmtu-aging infinite
+crypto map External_map 1 match address External_1_cryptomap
+crypto map External_map 1 set peer 204.15.114.74 66.210.79.130 
+crypto map External_map 1 set ikev1 transform-set ESP-AES-128-SHA
+crypto map External_map 2 match address External_2_cryptomap
+crypto map External_map 2 set peer 83.138.145.68 
+crypto map External_map 2 set ikev1 transform-set ESP-AES-128-SHA
+crypto map External_map 3 match address External_cryptomap_3
+crypto map External_map 3 set peer 174.143.119.11 
+crypto map External_map 3 set ikev1 transform-set ESP-AES-128-SHA ESP-AES-128-MD5 ESP-AES-192-SHA ESP-AES-192-MD5 ESP-AES-256-SHA ESP-AES-256-MD5 ESP-3DES-SHA ESP-3DES-MD5 ESP-DES-SHA ESP-DES-MD5
+crypto map External_map 3 set ikev2 ipsec-proposal AES256 AES192 AES 3DES DES
+crypto map External_map 4 match address External_4_cryptomap
+crypto map External_map 4 set peer 180.150.148.8 
+crypto map External_map 4 set ikev1 transform-set ESP-AES-128-SHA
+crypto map External_map 5 match address External_cryptomap_2
+crypto map External_map 5 set peer 207.97.248.25 
+crypto map External_map 5 set ikev1 transform-set ESP-AES-128-SHA ESP-AES-128-MD5 ESP-AES-192-SHA ESP-AES-192-MD5 ESP-AES-256-SHA ESP-AES-256-MD5 ESP-3DES-SHA ESP-3DES-MD5 ESP-DES-SHA ESP-DES-MD5
+crypto map External_map 5 set ikev2 ipsec-proposal AES256 AES192 AES 3DES DES
+crypto map External_map 6 match address External_cryptomap
+crypto map External_map 6 set peer 38.140.6.2 
+crypto map External_map 6 set ikev1 transform-set ESP-AES-128-SHA ESP-AES-128-MD5 ESP-AES-192-SHA ESP-AES-192-MD5 ESP-AES-256-SHA ESP-AES-256-MD5 ESP-3DES-SHA ESP-3DES-MD5 ESP-DES-SHA ESP-DES-MD5         
+crypto map External_map 7 match address cryacl
+crypto map External_map 7 set pfs 
+crypto map External_map 7 set peer 4.14.26.166  
+crypto map External_map 7 set ikev1 transform-set ESP-AES-128-SHA ESP-AES-128-MD5 ESP-AES-192-SHA ESP-AES-192-MD5 ESP-AES-256-SHA ESP-AES-256-MD5 ESP-3DES-SHA ESP-3DES-MD5 ESP-DES-SHA ESP-DES-MD5
+crypto map External_map 7 set ikev2 ipsec-proposal DES AES256
+crypto map External_map 7 set trustpoint ios-ca chain
+crypto map External_map 8 match address External_8_cryptomap
+crypto map External_map 8 set peer 109.68.94.18 
+crypto map External_map 8 set ikev1 transform-set ESP-AES-128-SHA
+crypto map External_map 9 match address External_9_cryptomap
+crypto map External_map 9 set peer 199.187.166.2 
+crypto map External_map 9 set ikev1 transform-set ESP-AES-128-SHA
+crypto map External_map 10 match address External_10_cryptomap
+crypto map External_map 10 set peer 4.59.196.34 
+crypto map External_map 10 set ikev1 transform-set ESP-AES-128-SHA
+crypto map External_map 11 match address External_11_cryptomap
+crypto map External_map 11 set peer 195.49.7.4 
+crypto map External_map 11 set ikev1 transform-set ESP-AES-128-SHA
+crypto map External_map 12 match address External_cryptomap_1
+crypto map External_map 12 set peer 66.90.168.228 
+crypto map External_map 12 set ikev1 transform-set ESP-AES-128-SHA
+crypto map External_map interface External
+crypto ca trustpoint ASDM_TrustPoint0
+ enrollment self
+ subject-name CN=ARSSSV4ASA
+ crl configure
+crypto ca trustpool policy
+crypto ca certificate chain ASDM_TrustPoint0
+ certificate 080d0c4f
+    308202dc 308201c4 a0030201 02020408 0d0c4f30 0d06092a 864886f7 0d010105 
+    05003030 31133011 06035504 03130a41 52535353 56344153 41311930 1706092a 
+    864886f7 0d010902 160a4152 53535356 34415341 301e170d 31323031 31303133 
+    30393336 5a170d32 32303130 37313330 3933365a 30303113 30110603 55040313 
+    0a415253 53535634 41534131 19301706 092a8648 86f70d01 0902160a 41525353 
+    53563441 53413082 0122300d 06092a86 4886f70d 01010105 00038201 0f003082 
+    010a0282 0101009f 405dd3fb 00f960b8 3b517e27 ef4e1219 5f573c21 1d583eb8 
+    81ddcae3 99d7a52a f1c28327 dcb05747 4bed07d1 a1146f60 3fce6f8b e0fd1f7f 
+    340f9aef e4928ce6 f3ef2a87 8ea40e15 9e6e828d 005dd15f 6d250d17 7c8ea75a 
+    086f0857 8ed0d71f 5011db84 f42ce9dd 3171f0e7 bd58d62f c54d5dc5 95171796 
+    863cfe92 7b55dbcf 029cb097 db51b15e bc6afed5 284cbe0c e0c2a8ba 23366900 
+    51f40e52 15c85962 564e4ec9 de657806 6bbc7929 e448d435 b5f536c7 9db92719 
+    edb2613b b447a708 38d57219 9e37828c 1fae96dc 398504a3 58ab8b7e fa4ef332 
+    84c32d27 9918bb16 12087435 652429da 0ffe9886 2a80af7f 4c39c8f6 689e6136 
+    6079f5ac 01a44902 03010001 300d0609 2a864886 f70d0101 05050003 82010100 
+    2f03b2c2 b7a828ec 6cc0f109 87ea2c19 4b549fdc 8c5b440a 425c368a 97c44802 
+    153f4040 43eda1cf 48cb1c4f 364d7f4e 71b45d7f a1816855 32b5afc2 ec17aa7a 
+    9a11e958 816f9213 be706b4b 4a85544d 0b70b321 58322fdd bab6d120 fae704db 
+    33065204 153037fb 2e44db0e e3e2d0ac e416f274 780eede5 9580fcba 1b7e9ba1 
+    97b79832 569604dd ac53369e f897bb89 77933fd3 8619a165 e18667db 9d528502 
+    fcacc130 4e13fdd4 821e6330 c60f5335 ec96a5e3 9ced16e8 9ff69558 478942c5 
+    00eb1aff 516977fa 72983e55 2676f92f a626a48a 9ba1f2fb 347385bb 9e7fddb1 
+    7631add1 6642e448 a487a8b3 a9a17112 40019672 5996f138 35fbd5f9 79b7075f
+  quit
+!
+crypto ikev2 policy 1
+ encryption aes-256
+ integrity sha
+ group 5 2
+ prf sha
+ lifetime seconds 86400
+crypto ikev2 policy 10
+ encryption aes-192
+ integrity sha
+ group 5 2
+ prf sha
+ lifetime seconds 86400
+crypto ikev2 policy 20
+ encryption aes
+ integrity sha
+ group 5 2
+ prf sha
+ lifetime seconds 86400
+crypto ikev2 policy 30
+ encryption 3des
+ integrity sha
+ group 5 2
+ prf sha
+ lifetime seconds 86400
+crypto ikev2 policy 40
+ encryption des
+ integrity sha
+ group 5 2
+ prf sha
+ lifetime seconds 86400
+crypto ikev2 enable External
+crypto ikev1 enable External
+crypto ikev1 am-disable
+crypto ikev1 policy 10
+ authentication crack
+ encryption aes-256
+ hash sha
+ group 2
+ lifetime 86400
+crypto ikev1 policy 20
+ authentication rsa-sig
+ encryption aes-256
+ hash sha
+ group 2
+ lifetime 86400
+crypto ikev1 policy 30
+ authentication pre-share
+ encryption aes-256
+ hash sha
+ group 2
+ lifetime 86400
+crypto ikev1 policy 40
+ authentication crack
+ encryption aes-192
+ hash sha
+ group 2
+ lifetime 86400
+crypto ikev1 policy 50
+ authentication rsa-sig
+ encryption aes-192
+ hash sha
+ group 2
+ lifetime 86400
+crypto ikev1 policy 60
+ authentication pre-share
+ encryption aes-192
+ hash sha
+ group 2
+ lifetime 86400
+crypto ikev1 policy 70
+ authentication crack
+ encryption aes
+ hash sha
+ group 2
+ lifetime 86400
+crypto ikev1 policy 80
+ authentication rsa-sig
+ encryption aes
+ hash sha
+ group 2
+ lifetime 86400
+crypto ikev1 policy 90
+ authentication pre-share
+ encryption aes
+ hash sha
+ group 2
+ lifetime 86400
+crypto ikev1 policy 100
+ authentication crack
+ encryption 3des
+ hash sha
+ group 2
+ lifetime 86400
+crypto ikev1 policy 110
+ authentication rsa-sig
+ encryption 3des
+ hash sha
+ group 2
+ lifetime 86400
+crypto ikev1 policy 120
+ authentication pre-share
+ encryption 3des
+ hash sha
+ group 2
+ lifetime 86400
+crypto ikev1 policy 130
+ authentication crack
+ encryption des
+ hash sha
+ group 2
+ lifetime 86400
+crypto ikev1 policy 140
+ authentication rsa-sig
+ encryption des
+ hash sha
+ group 2
+ lifetime 86400
+crypto ikev1 policy 150
+ authentication pre-share
+ encryption des
+ hash sha
+ group 2
+ lifetime 86400
+crypto ikev1 policy 170
+ authentication pre-share
+ encryption aes-256
+ hash sha
+ group 5
+ lifetime 86400
+telnet timeout 5
+ssh stricthostkeycheck
+ssh 204.15.114.74 255.255.255.255 External
+ssh 64.39.0.78 255.255.255.255 External
+ssh 23.123.102.204 255.255.255.255 External
+ssh 10.100.128.0 255.255.128.0 Private
+ssh PrivateNetwork 255.255.255.0 Private
+ssh 192.168.210.0 255.255.254.0 Private
+ssh 10.100.0.0 255.255.0.0 MGMT
+ssh 192.168.210.0 255.255.254.0 MGMT
+ssh timeout 5
+ssh key-exchange group dh-group1-sha1
+console timeout 0
+management-access MGMT
+dhcpd ping_timeout 750
+!
+dhcpd address 192.168.1.2-192.168.1.254 management
+dhcpd enable management
+!
+threat-detection basic-threat
+threat-detection statistics access-list
+no threat-detection statistics tcp-intercept
+group-policy DfltGrpPolicy attributes
+ vpn-tunnel-protocol ikev1 l2tp-ipsec ssl-clientless
+group-policy GroupPolicy_66.90.168.228 internal
+group-policy GroupPolicy_66.90.168.228 attributes
+ vpn-tunnel-protocol ikev1 
+group-policy GroupPolicy_4.14.26.166 internal
+group-policy GroupPolicy_4.14.26.166 attributes
+ vpn-idle-timeout 30
+ vpn-tunnel-protocol ikev1 ikev2  
+group-policy GroupPolicy_207.97.248.25 internal
+group-policy GroupPolicy_207.97.248.25 attributes
+ vpn-tunnel-protocol ikev1 ikev2 
+group-policy GroupPolicy_38.140.6.2 internal
+group-policy GroupPolicy_38.140.6.2 attributes
+ vpn-tunnel-protocol ikev1 
+group-policy GroupPolicy_174.143.119.11 internal
+group-policy GroupPolicy_174.143.119.11 attributes
+ vpn-tunnel-protocol ikev1 ikev2 
+username scottie password <removed> privilege 15
+username sroberts password <removed> privilege 15
+username rancidbackups password <removed> privilege 15
+username aradmin password <removed>
+username jnitterauer password <removed> privilege 15
+username oboboc password <removed> privilege 15
+tunnel-group DefaultRAGroup ipsec-attributes
+ isakmp keepalive threshold 10 retry 2
+tunnel-group DefaultWEBVPNGroup ipsec-attributes
+ isakmp keepalive threshold 10 retry 2
+tunnel-group 204.15.114.74 type ipsec-l2l
+tunnel-group 204.15.114.74 ipsec-attributes
+ ikev1 pre-shared-key *****
+tunnel-group 83.138.145.68 type ipsec-l2l
+tunnel-group 83.138.145.68 ipsec-attributes
+ ikev1 pre-shared-key *****
+tunnel-group 174.143.119.11 type ipsec-l2l
+tunnel-group 174.143.119.11 general-attributes
+ default-group-policy GroupPolicy_174.143.119.11
+tunnel-group 174.143.119.11 ipsec-attributes
+ ikev1 pre-shared-key *****
+ ikev2 remote-authentication pre-shared-key *****
+ ikev2 local-authentication pre-shared-key *****
+tunnel-group 180.150.148.8 type ipsec-l2l
+tunnel-group 180.150.148.8 ipsec-attributes
+ ikev1 pre-shared-key *****
+tunnel-group 207.97.248.25 type ipsec-l2l
+tunnel-group 207.97.248.25 general-attributes
+ default-group-policy GroupPolicy_207.97.248.25
+tunnel-group 207.97.248.25 ipsec-attributes
+ ikev1 pre-shared-key *****
+ ikev2 remote-authentication pre-shared-key *****
+ ikev2 local-authentication pre-shared-key *****
+tunnel-group 4.14.26.166 type ipsec-l2l
+tunnel-group 4.14.26.166 general-attributes
+ default-group-policy GroupPolicy_4.14.26.166
+tunnel-group 4.14.26.166 ipsec-attributes
+ peer-id-validate nocheck
+ ikev2 remote-authentication pre-shared-key *****
+ ikev2 local-authentication pre-shared-key *****
+tunnel-group 109.68.94.18 type ipsec-l2l
+tunnel-group 109.68.94.18 ipsec-attributes
+ ikev1 pre-shared-key *****
+tunnel-group 199.187.167.254 type ipsec-l2l
+tunnel-group 4.59.196.34 type ipsec-l2l
+tunnel-group 4.59.196.34 ipsec-attributes
+ ikev1 pre-shared-key *****
+tunnel-group 199.187.166.2 type ipsec-l2l
+tunnel-group 199.187.166.2 ipsec-attributes
+ ikev1 pre-shared-key *****
+tunnel-group 195.49.7.4 type ipsec-l2l
+tunnel-group 195.49.7.4 ipsec-attributes
+ ikev1 pre-shared-key *****
+tunnel-group 66.90.168.228 type ipsec-l2l
+tunnel-group 66.90.168.228 general-attributes
+ default-group-policy GroupPolicy_66.90.168.228
+tunnel-group 66.90.168.228 ipsec-attributes
+ ikev1 pre-shared-key *****
+ ikev2 remote-authentication pre-shared-key *****
+ ikev2 local-authentication pre-shared-key *****
+tunnel-group 38.140.6.2 type ipsec-l2l
+tunnel-group 38.140.6.2 general-attributes
+ default-group-policy GroupPolicy_38.140.6.2
+tunnel-group 38.140.6.2 ipsec-attributes
+ ikev1 pre-shared-key *****
+ ikev2 remote-authentication pre-shared-key *****
+ ikev2 local-authentication pre-shared-key *****
+!
+class-map inspection_default
+ match default-inspection-traffic
+!
+!
+policy-map type inspect dns preset_dns_map
+ parameters
+  message-length maximum client auto
+  message-length maximum 512
+policy-map global_policy
+ class inspection_default
+  inspect dns preset_dns_map 
+  inspect ftp 
+  inspect h323 h225 
+  inspect h323 ras 
+  inspect ip-options 
+  inspect netbios 
+  inspect rsh 
+  inspect rtsp 
+  inspect skinny  
+  inspect esmtp 
+  inspect sqlnet 
+  inspect sunrpc 
+  inspect sip  
+  inspect xdmcp 
+!
+service-policy global_policy global
+prompt hostname context 
+no call-home reporting anonymous
+call-home
+ profile CiscoTAC-1
+  no active
+  destination address http https://tools.cisco.com/its/service/oddce/services/DDCEService
+  destination address email callhome@cisco.com
+  destination transport-method http
+  subscribe-to-alert-group diagnostic
+  subscribe-to-alert-group environment
+  subscribe-to-alert-group inventory periodic monthly
+  subscribe-to-alert-group configuration periodic monthly
+  subscribe-to-alert-group telemetry periodic daily
+!
+ntp trusted-key 1
+ntp server 192.168.254.254
+Cryptochecksum:1a26fe595ac20a5abb6dde6784d43ac7
+: end
+Cannot open disk0:/csco_config/97/bookmarks/index.ini
+
+------------------ more disk0:/sdesktop/data.xml ------------------
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data version="3.2.1">
+
+  <multilocation>
+
+    <sequence>
+
+      <start>
+
+        <location name="Default" />
+
+      </start>
+
+    </sequence>
+
+  </multilocation>
+
+  <location name="Default">
+
+    <field type="checkbox" name="cAutomaticSwitch" value="ON" />
+
+    <field type="checkbox" name="cLocationCacheCleaner" value="ON" />
+
+    <field type="checkbox" name="cWindowsCleanerShowSuccess" value="OFF" />
+
+    <field type="checkbox" name="cWindowsCleanerLaunchTimeout" value="ON" />
+
+    <field type="checkbox" name="cWindowsCleanerLaunchClose" value="ON" />
+
+    <field type="checkbox" name="cWindowsCleanerDisableCancel" value="ON" />
+
+    <field type="text" name="tWindowsCleanerLogoutTitle" value="(SSL VPN Logout)" />
+
+    <field type="checkbox" name="cWindowsCleanerLogoutTitle" value="ON" />
+
+    <field type="dropdown" name="dWindowsCleanerTimeout" value="5" />
+
+    <field type="dropdown" name="dCleanerSecureDeletePass" value="3" />
+
+    <field type="checkbox" name="cBackForward" value="ON" />
+
+    <field type="checkbox" name="cTimeout" value="ON" />
+
+    <field type="dropdown" name="dTimeout" value="5" />
+
+    <field type="dropdown" name="cTimeoutBeep" value="ON" />
+
+    <field type="dropdown" name="dSDSecureDeletePass" value="3" />
+
+    <field type="text" name="tInternetExplorerHomePage" value="about:blank" />
+
+    <favorite type="folder" value="Favorites" />
+
+  </location>
+
+  <hostscan />
+
+</data>
+
+
+
+------------------ show ak47 detailed ------------------
+
+instance 0001 0xae5ac210 (Unicorn Proxy Thread) arena 0xae5ac160 fiber count 3
+Arena 0xae5ac160 of 4970640 bytes (66 blocks of size 76000), maximum 536870912
+  531900272 free bytes (100%; 6998 blocks, zone 0)
+  Arena is dynamically allocated, not contiguous
+  Features: GroupMgmt: SET, MemDebugLog: unset
+
+instance 0002 0xadb47cd8 (rtcli async executor process) arena 0xadb49160 fiber count 2
+Arena 0xadb49160 of 3502168 bytes (54 blocks of size 65536), no size limit
+  Arena is dynamically allocated, not contiguous
+  Features: GroupMgmt: unset, MemDebugLog: unset
+
+instance 0003 0xa9752b60 (UserFromCert Thread) arena 0xa9752ab0 fiber count 2
+Arena 0xa9752ab0 of 1672000 bytes (22 blocks of size 76000), no size limit
+  Arena is dynamically allocated, not contiguous
+  Features: GroupMgmt: unset, MemDebugLog: unset
+
+instance 0004 0xa97505d0 (aaa_shim_thread) arena 0xa974a8e0 fiber count 2
+Arena 0xa974a8e0 of 304000 bytes (4 blocks of size 76000), maximum 71303168
+  70999168 free bytes (100%; 934 blocks, zone 0)
+  Arena is dynamically allocated, not contiguous
+  Features: GroupMgmt: SET, MemDebugLog: unset
+
+instance 0005 0xaa472a80 (netfs_thread_init) arena 0xaa4729d0 fiber count 2
+Arena 0xaa4729d0 of 792488 bytes (12 blocks of size 66048), no size limit
+  Arena is dynamically allocated, not contiguous
+  Features: GroupMgmt: SET, MemDebugLog: unset
+
+
+------------------ show startup-config errors ------------------
+
+Reading from flash...
+!!!!!
+------------------ console logs ------------------
+
+Message #1 : Message #2 : 
+Total SSMs found: 0
+Message #3 : 
+Total NICs found: 7
+Message #4 : mcwa Message #5 : i82557 Ethernet at irq 11Message #6 :   MAC: 44d3.ca8e.1a4d
+Message #7 : mcwa Message #8 : i82557 Ethernet at irq  5Message #9 :   MAC: 0000.0001.0001
+Message #10 : i82547GI rev00 Gigabit Ethernet @ irq11 dev 1 index 05Message #11 :  MAC: 0000.0001.0002
+Message #12 : i82546GB rev03 Ethernet @ irq09 dev 2 index 03Message #13 :  MAC: 44d3.ca8e.1a51
+Message #14 : i82546GB rev03 Ethernet @ irq09 dev 2 index 02Message #15 :  MAC: 44d3.ca8e.1a50
+Message #16 : i82546GB rev03 Ethernet @ irq09 dev 3 index 01Message #17 :  MAC: 44d3.ca8e.1a4f
+Message #18 : i82546GB rev03 Ethernet @ irq09 dev 3 index 00Message #19 :  MAC: 44d3.ca8e.1a4e
+Message #20 : Verify the activation-key, it might take a while...
+Message #21 : Running Permanent Message #22 : Activation Key: Message #23 : 0xac33c074 Message #24 : 0x2ce31ba1 Message #25 : 0x74a0f548 Message #26 : 0x984c28cc Message #27 : 0x0927249f Message #28 : 
+Message #29 : 
+Licensed Message #30 : features for this platform:
+Message #31 : Maximum Physical Interfaces       : Unlimited      perpetual
+Message #32 : Maximum VLANs                     : 100            perpetual
+Message #33 : Inside Hosts                      : Unlimited      perpetual
+Message #34 : Failover                          : Active/Active  perpetual
+Message #35 : Encryption-DES                    : Enabled        perpetual
+Message #36 : Encryption-3DES-AES               : Enabled        perpetual
+Message #37 : Security Contexts                 : 2              perpetual
+Message #38 : GTP/GPRS                          : Disabled       perpetual
+Message #39 : AnyConnect Premium Peers          : 2              perpetual
+Message #40 : AnyConnect Essentials             : Disabled       perpetual
+Message #41 : Other VPN Peers                   : 250            perpetual
+Message #42 : Total VPN Peers                   : 250            perpetual
+Message #43 : Shared License                    : Disabled       perpetual
+Message #44 : AnyConnect for Mobile             : Disabled       perpetual
+Message #45 : AnyConnect for Cisco VPN Phone    : Disabled       perpetual
+Message #46 : Advanced Endpoint Assessment      : Disabled       perpetual
+Message #47 : UC Phone Proxy Sessions           : 2              perpetual
+Message #48 : Total UC Proxy Sessions           : 2              perpetual
+Message #49 : Botnet Traffic Filter             : Disabled       perpetual
+Message #50 : Intercompany Media Engine         : Disabled       perpetual
+Message #51 : Cluster                           : Disabled       perpetual
+Message #52 : 
+This platform has an ASA 5510 Security Plus license.
+Message #53 : 
+Message #54 : Encryption hardware device : Cisco ASA-55xx on-board accelerator (revision 0x0)
+Message #55 :                              Boot microcode        : CN1000-MC-BOOT-2.00 
+Message #56 :                              SSL/IKE microcode     : CNlite-MC-SSLm-PLUS-2.08
+Message #57 :                              IPSec microcode       : CNlite-MC-IPSECm-MAIN-2.09
+Message #58 : 
+Cisco Adaptive Security Appliance Software Version 9.1(7) 
+Message #59 : 
+Message #60 :   ****************************** Warning *******************************
+Message #61 :   This product contains cryptographic features and is
+Message #62 :   subject to United States and local country laws
+Message #63 :   governing, import, export, transfer, and use.
+Message #64 :   Delivery of Cisco cryptographic products does not
+Message #65 :   imply third-party authority to import, export,
+Message #66 :   distribute, or use encryption. Importers, exporters,
+Message #67 :   distributors and users are responsible for compliance
+Message #68 :   with U.S. and local country laws. By using this
+Message #69 :   product you agree to comply with applicable laws and
+Message #70 :   regulations. If you are unable to comply with U.S.
+Message #71 :   and local laws, return the enclosed items immediately.
+Message #72 : 
+Message #73 :   A summary of U.S. laws governing Cisco cryptographic
+Message #74 :   products may be found at:
+Message #75 :   http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+Message #76 : 
+Message #77 :   If you require further assistance please contact us by
+Message #78 :   sending email to export@cisco.com.
+Message #79 :   ******************************* Warning *******************************
+Message #80 : 
+Message #81 : This product includes software developed by the OpenSSL Project
+Message #82 : for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Message #83 : Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+Message #84 : All rights reserved.
+Message #85 : Copyright (c) 1998-2011 The OpenSSL Project.
+Message #86 : All rights reserved.
+
+Message #87 : This product includes software developed at the University of
+Message #88 : California, Irvine for use in the DAV Explorer project
+Message #89 : (http://www.ics.uci.edu/~webdav/)
+Message #90 : Copyright (c) 1999-2005 Regents of the University of California.
+Message #91 : All rights reserved.
+
+Message #92 : Busybox, version 1.16.1, Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+Message #93 : 51 Franklin St, Fifth Floor, Boston, MA 02110-1301  USA
+Message #94 : Busybox comes with ABSOLUTELY NO WARRANTY.
+Message #95 : This is free software, and you are welcome to redistribute it under the General 
+Message #96 : Public License v.2 (http://www.gnu.org/licenses/gpl-2.0.html)
+Message #97 : See User Manual (''Licensing'') for details.
+
+Message #98 : DOSFSTOOLS, version 2.11, Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+Message #99 : 59 Temple Place, Suite 330, Boston, MA 02111-1307
+Message #100 : 675 Mass Ave, Cambridge, MA 02139
+Message #101 : DOSFSTOOLS comes with ABSOLUTELY NO WARRANTY.
+Message #102 : This is free software, and you are welcome to redistribute it under the General 
+Message #103 : Public License v.2 (http://www.gnu.org/licenses/gpl-2.0.html)
+Message #104 : See User Manual (''Licensing'') for details.
+
+Message #105 : grub, version 0.94, Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+Message #106 : 59 Temple Place, Suite 330, Boston, MA 02111-1307
+Message #107 : grub comes with ABSOLUTELY NO WARRANTY.
+Message #108 : This is free software, and you are welcome to redistribute it under the General 
+Message #109 : Public License v.2 (http://www.gnu.org/licenses/gpl-2.0.html)
+Message #110 : See User Manual (''Licensing'') for details.
+
+Message #111 : libgcc, version 4.3, Copyright (C) 2007 Free Software Foundation, Inc.
+Message #112 : libgcc comes with ABSOLUTELY NO WARRANTY.
+Message #113 : This is free software, and you are welcome to redistribute it under the General 
+Message #114 : Public License v.2 (http://www.gnu.org/licenses/gpl-2.0.html)
+Message #115 : See User Manual (''Licensing'') for details.
+
+Message #116 : libstdc++, version 4.3, Copyright (C) 2007 Free Software Foundation, Inc.
+Message #117 : libstdc++ comes with ABSOLUTELY NO WARRANTY.
+Message #118 : This is free software, and you are welcome to redistribute it under the General 
+Message #119 : Public License v.2 (http://www.gnu.org/licenses/gpl-2.0.html)
+Message #120 : See User Manual (''Licensing'') for details.
+
+Message #121 : Linux kernel, version 2.6.29.6, Copyright (C) 1989, 1991 Free Software 
+Message #122 : Foundation, Inc.
+Message #123 : 51 Franklin St, Fifth Floor, Boston, MA 02110-1301  USA
+Message #124 : Linux kernel comes with ABSOLUTELY NO WARRANTY.
+Message #125 : This is free software, and you are welcome to redistribute it under the General 
+Message #126 : Public License v.2 (http://www.gnu.org/licenses/gpl-2.0.html)
+Message #127 : See User Manual (''Licensing'') for details.
+
+Message #128 : module-init-tools, version 3.10, Copyright (C) 1989, 1991 Free Software 
+Message #129 : Foundation, Inc.
+Message #130 : 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+Message #131 : module-init-tools comes with ABSOLUTELY NO WARRANTY.
+Message #132 : This is free software, and you are welcome to redistribute it under the General 
+Message #133 : Public License v.2 (http://www.gnu.org/licenses/gpl-2.0.html)
+Message #134 : See User Manual (''Licensing'') for details.
+
+Message #135 : numactl, version 2.0.3, Copyright (C) 2008 SGI.
+Message #136 : Author: Andi Kleen, SUSE Labs
+Message #137 : Version 2.0.0 by Cliff Wickman, Chritopher Lameter and Lee Schermerhorn
+Message #138 : numactl comes with ABSOLUTELY NO WARRANTY.
+Message #139 : This is free software, and you are welcome to redistribute it under the General 
+Message #140 : Public License v.2 (http://www.gnu.org/licenses/gpl-2.0.html)
+Message #141 : See User Manual (''Licensing'') for details.
+
+Message #142 : pciutils, version 3.1.4, Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+Message #143 : 51 Franklin St, Fifth Floor, Boston, MA 02110-1301  USA
+Message #144 : pciutils comes with ABSOLUTELY NO WARRANTY.
+Message #145 : This is free software, and you are welcome to redistribute it under the General 
+Message #146 : Public License v.2 (http://www.gnu.org/licenses/gpl-2.0.html)
+Message #147 : See User Manual (''Licensing'') for details.
+
+Message #148 : readline, version 5.2, Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+Message #149 : 59 Temple Place, Suite 330, Boston, MA 02111 USA
+Message #150 : readline comes with ABSOLUTELY NO WARRANTY.
+Message #151 : This is free software, and you are welcome to redistribute it under the General 
+Message #152 : Public License v.2 (http://www.gnu.org/licenses/gpl-2.0.html)
+Message #153 : See User Manual (''Licensing'') for details.
+
+Message #154 : udev, version 146, Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+Message #155 : 51 Franklin St, Fifth Floor, Boston, MA 02110-1301  USA
+Message #156 : udev comes with ABSOLUTELY NO WARRANTY.
+Message #157 : This is free software, and you are welcome to redistribute it under the General 
+Message #158 : Public License v.2 (http://www.gnu.org/licenses/gpl-2.0.html)
+Message #159 : See User Manual (''Licensing'') for details.
+
+Message #160 : util-linux, version 2.16.1, Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+Message #161 : The following components, built for inclusion in Busybox.
+Message #162 : The following components from util-linux come with ABSOLUTELY NO WARRANTY.
+Message #163 : fdisk:
+Message #164 :   Copyright (C) 1992  A. V. Le Blanc (LeBlanc@mcc.ac.uk)
+Message #165 :   Copyright (C) 2001,2002 Vladimir Oleynik <dzo@simtreas.ru> (initial bb port)
+Message #166 : dmesg:
+Message #167 :   Copyright 2006 Rob Landley <rob@landley.net>
+Message #168 :   Copyright 2006 Bernhard Reutner-Fischer <rep.nop@aon.at>
+Message #169 : mkswap:
+Message #170 :   Copyright 2006 Rob Landley <rob@landley.net>
+Message #171 : mount:
+Message #172 :   Copyright (C) 1995, 1996 by Bruce Perens <bruce@pixar.com>.
+Message #173 :   Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org>
+Message #174 :   Copyright (C) 2005-2006 by Rob Landley <rob@landley.net>
+Message #175 : umount:
+Message #176 :   Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org>
+Message #177 :   Copyright (C) 2005 by Rob Landley <rob@landley.net>
+Message #178 : This is free software, and you are welcome to redistribute it under the General
+Message #179 : Public License v.2 (http://www.gnu.org/licenses/gpl-2.0.html)
+Message #180 : See User Manual (''Licensing'') for details.
+
+Message #181 : Cisco Adapative Security Appliance Software, version 9.1,
+Message #182 : Copyright (c) 1996-2016 by Cisco Systems, Inc.
+Message #183 : Certain components of Cisco ASA Software, Version 9.1 are licensed under the GNU
+Message #184 : Lesser Public License (LGPL) Version 2.1.  The software code licensed under LGPL
+Message #185 : Version 2.1 is free software that comes with ABSOLUTELY NO WARRANTY.  You can
+Message #186 : redistribute and/or modify such LGPL code under the terms of LGPL Version 2.1
+Message #187 : (http://www.gnu.org/licenses/lgpl-2.1.html).  See User Manual for licensing 
+Message #188 : details.
+
+Message #189 :                 Restricted Rights Legend
+
+Message #190 : Use, duplication, or disclosure by the Government is
+Message #191 : subject to restrictions as set forth in subparagraph
+Message #192 : (c) of the Commercial Computer Software - Restricted
+Message #193 : Rights clause at FAR sec. 52.227-19 and subparagraph
+Message #194 : (c) (1) (ii) of the Rights in Technical Data and Computer
+Message #195 : Software clause at DFARS sec. 252.227-7013.
+
+Message #196 :                 Cisco Systems, Inc.
+Message #197 :                 170 West Tasman Drive
+Message #198 :                 San Jose, California 95134-1706
+
+Message #199 : 
+INFO: Power-On Self-Test in process.
+Message #200 : .Message #201 : .Message #202 : .Message #203 : .Message #204 : .Message #205 : .Message #206 : .Message #207 : .Message #208 : .Message #209 : .Message #210 : .Message #211 : .Message #212 : .Message #213 : .Message #214 : .Message #215 : .Message #216 : .Message #217 : .Message #218 : .Message #219 : .Message #220 : .Message #221 : .Message #222 : .Message #223 : .Message #224 : .Message #225 : .Message #226 : .Message #227 : .Message #228 : .Message #229 : .Message #230 : .Message #231 : .Message #232 : .Message #233 : .Message #234 : .Message #235 : .Message #236 : .Message #237 : .Message #238 : .Message #239 : .Message #240 : .Message #241 : .Message #242 : .Message #243 : .Message #244 : .Message #245 : .Message #246 : .Message #247 : .Message #248 : .Message #249 : .Message #250 : .Message #251 : .Message #252 : .Message #253 : .Message #254 : .Message #255 : .Message #256 : .Message #257 : .Message #258 : .Message #259 : 
+INFO: Power-On Self-Test complete.
+
+
+SV4-ASA5510-701#    exit
+
+Logoff
+
